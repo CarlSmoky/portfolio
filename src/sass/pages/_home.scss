@@ -1,0 +1,28 @@
+.c-home {
+  height: 100vh;
+  // width: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: relative;
+    background-image: linear-gradient(to right bottom, grey , yellow),  url(../../img/image1.jpg);
+    background-blend-mode: screen;
+    
+
+    &__my-name {
+      position: absolute;
+      top: 100px;
+      left: calc(50% - $profile-image-width/2);
+      font-size: 2rem;
+      color: white;
+      width: $profile-image-width;
+
+    }
+
+    &__profile_photo {
+      width: 10rem;
+      border-radius: 50%;
+      
+    }
+  }
+
