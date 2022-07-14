@@ -1,8 +1,16 @@
-import React from 'react'
+import React from 'react';
+import image from '../img/image1.jpg';
+import profilePhoto from '../img/image5.jpg';
 
-function Home() {
+
+const Home = () => {
   return (
-    <div>Home</div>
+    <div className="c-home" >
+      <section className="c-home__my-name">
+        <img className="c-home__profile_photo" src={profilePhoto} alt="profile_photo"/>
+        <h3>Kaoru Tsumita</h3>
+      </section>
+    </div>
   )
 }
 
