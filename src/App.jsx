@@ -1,6 +1,5 @@
 import "./sass/main.scss"
 import Header from './components/Header';
-import Home from './components/Home';
 import About from "./components/About";
 import Skill from "./components/Skill";
 import Projects from './components/Projects';
