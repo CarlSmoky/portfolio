@@ -1,8 +1,8 @@
 import "./sass/main.scss"
 import Header from './components/Header';
 import About from "./components/About";
-import Skill from "./components/Skill";
-import Projects from './components/Projects';
+import SkillList from "./components/SkillList";
+import ProjectList from './components/ProjectList';
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
@@ -13,8 +13,8 @@ export default function App() {
   <div className="App" >
     <Header></Header>
     <About></About>
-    <Skill></Skill>
-    <Projects></Projects>
+    <SkillList></SkillList>
+    <ProjectList></ProjectList>
     <Contact></Contact>
     <Footer></Footer>
   </div >
