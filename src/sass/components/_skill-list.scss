@@ -1,0 +1,27 @@
+.skill-list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  &__item {
+    // border: 2px solid $color-primary;
+    border-radius: 10px;
+    width: 45rem;
+    height: 40rem;
+    border-radius: 0.6em;
+    margin: 2rem;
+    background-color: antiquewhite;
+  }
+
+  &__heading {
+    font-size: 3rem;
+  }
+
+  &__details {
+    font-size: 2rem;
+    text-align: left;
+    padding-top: 1rem;
+    padding-left: 2rem;
+  }
+}

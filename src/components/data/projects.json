@@ -1,0 +1,43 @@
+[
+  {
+    "id" : "1",
+    "title" : "Little Library",
+    "details" : "Little_libraries_client is build with React using a Postgres/Node/Express backend, with the Google Maps API and Firebase Cloud Storage for keeping track of ‘Little Libraries’",
+    "image_url" : "https://github.com/CarlSmoky/little_libraries_client/raw/main/docs/Little_library_Home_Desktop.png?raw=true",
+    "git_url" : "https://github.com/CarlSmoky/little_libraries_client",
+    "demo_url" : "https://little-library-client.herokuapp.com/",
+    "author" : "Kaoru & Jeff",
+    "stack" : "React.js, Express, PostgreSQL, react-google-maps, react-dom, JWTs, bcryptjs, axios"
+  },
+  {
+    "id" : "2",
+    "title" : "Find Meow!",
+    "details" : "Find Me-ow! is an app with React using a Postgres/Node/Express backend, with the Google Maps API and Twilio to help to unite lost cats and found cats with their owners.",
+    "image_url" : "https://github.com/CarlSmoky/find_me-ow/raw/main/docs/Home.png?raw=true",
+    "git_url" : "https://github.com/CarlSmoky/find_me-ow",
+    "demo_url": "",
+    "author" : "Kaoru, Mei & Walid",
+    "stack" : "React.js, Express, PostgreSQL, react-google-maps, react-dom, bcryptjs, axios"
+  },
+  {
+    "id" : "3",
+    "title" : "Scheduler",
+    "details" : "Interview Scheduler is a one page application built with React using Jest, Storybook, and Cypress for arranging interview schedules.",
+    "image_url" : "https://github.com/CarlSmoky/scheduler/raw/master/docs/Full_size.png?raw=true",
+    "git_url" : "https://github.com/CarlSmoky/scheduler",
+    "demo_url": "",
+    "author" : "Kaoru",
+    "stack" : "React.js"
+  },
+  {
+    "id" : "4",
+    "title" : "Tweeter",
+    "details" : "Tweeter is a simple, single-page Twitter clone. Single Page App (SPA) built with HTML, CSS, JS, jQuery and AJAX Resources.",
+    "image_url" : "https://github.com/CarlSmoky/tweeter/raw/master/docs/tweet-profile.png?raw=true",
+    "git_url" : "https://github.com/CarlSmoky/tweeter",
+    "demo_url": "",
+    "author" : "Kaoru",
+    "stack" : "HTML, CSS, JS, jQuery and AJAX"
+  }
+
+]
