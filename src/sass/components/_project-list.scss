@@ -11,26 +11,26 @@
 .card {
     position: relative;
     cursor: pointer;
-    margin: -6rem 3rem;
+    margin: -2rem 3rem;
 
     &__face {
         width: 70rem;
-        height: 38rem;
+        height: 36.6rem;
         transition: 0.5s;
     }
 
     &__top {
         position: relative;
-        background: #333;
+        background: $color-primary;
         display: flex;
         justify-content: center;
         align-items: center;
         z-index: 1;
-        transform: translateY(19rem);
-        height: 38rem;
+        transform: translateY(18.3rem);
+        height: 36.6rem;
 
         &--content {
-            opacity: 0.5;
+            opacity: 0.8;
             transition: 0.5s;
 
             img {
@@ -41,16 +41,15 @@
             h3 {
                 margin: 1rem 0 0;
                 padding: 0;
-                color: #fff;
+                color: $color-white;
                 text-align: center;
-                font-size: $font-size-middle;
+                font-size: 3rem;
             }
         }
     }
 
     &:hover &__top {
-        // background: #ff0057;
-        background: #fff;
+        background: $color-white;
         transform: translateY(0);
     }
 
@@ -60,14 +59,14 @@
 
     &__bottom {
         position: relative;
-        background: #fff;
+        background: $color-white;
         display: flex;
         justify-content: center;
         align-items: center;
         padding: 2rem;
         box-sizing: border-box;
         box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.8);
-        transform: translateY(-19rem);
+        transform: translateY(-18.3rem);
 
         &--content {
 
@@ -75,7 +74,7 @@
                 margin: 1rem 0 1rem;
                 padding: 0;
                 text-align: center;
-                font-size: $font-size-middle;
+                font-size: 3rem;
             }
 
             p {
@@ -90,14 +89,14 @@
                 display: inline-block;
                 text-decoration: none;
                 font-weight: 900;
-                color: #333;
+                color: $color-primary;
                 padding: .5rem;
-                border: 1px solid #333;
+                border: 1px solid $color-primary;
                 font-size: $font-size-middle;
 
                 &:hover {
-                    background: #333;
-                    color: #fff;
+                    background: $color-primary;
+                    color: $color-white;
                 }
             }
         }
@@ -109,104 +108,49 @@
 
 }
 
-// @media screen and (max-width: 500px) {
-//     .card {
-//         // position: relative;
-//         // cursor: pointer;
-//         // margin: -6rem 3rem;
+@media screen and (max-width: 500px) {
+    .card {
+        margin: -2rem 2rem;
     
-//         &__face {
-//             width: 35rem;
-//             height: 18rem;
-//             // transition: 0.5s;
-//         }
+        &__face {
+            width: 35rem;
+            height: 18rem;
+        }
     
-//         &__top {
-//             // position: relative;
-//             // background: #333;
-//             // display: flex;
-//             // justify-content: center;
-//             // align-items: center;
-//             // z-index: 1;
-//             transform: translateY(9rem);
-//             height: 18rem;
+        &__top {
+            transform: translateY(9rem);
+            height: 18rem;
     
-//             &--content {
-//                 opacity: 0.5;
-//                 transition: 0.5s;
+            &--content {
+                h3 {
+                    margin: .2rem 0 0;
+                    font-size: $default-font-size;
+                }
+            }
+        }
     
-//                 img {
-//                     width: 100%;
-//                     height: 100%;
-//                 }
+        &__bottom {
+            transform: translateY(-9rem);
     
-//                 h3 {
-//                     margin: 1rem 0 0;
-//                     padding: 0;
-//                     color: #fff;
-//                     text-align: center;
-//                     font-size: $default-font-size;
-//                 }
-//             }
-//         }
+            &--content {
     
-//         &:hover &__top {
-//             // background: #ff0057;
-//             background: #fff;
-//             transform: translateY(0);
-//         }
+                h3 {
+                    margin: 1.5rem 0 0;
+                    padding: 0;
+                    text-align: center;
+                    font-size: $default-font-size;
+                }
     
-//         &:hover &__top--content {
-//             opacity: 1;
-//         }
+                p {
+                    font-size: 1rem;
+                }
     
-//         &__bottom {
-//             position: relative;
-//             background: #fff;
-//             display: flex;
-//             justify-content: center;
-//             align-items: center;
-//             padding: 2rem;
-//             box-sizing: border-box;
-//             box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.8);
-//             transform: translateY(-9rem);
-    
-//             &--content {
-    
-//                 h3 {
-//                     margin: 1rem 0 1rem;
-//                     padding: 0;
-//                     text-align: center;
-//                     font-size: $default-font-size;
-//                 }
-    
-//                 p {
-//                     margin: 0 1rem;
-//                     padding: 0;
-//                     font-size: $default-font-size;
-//                     text-align: left;
-//                 }
-    
-//                 a {
-//                     margin: 1.5rem 1rem 0;
-//                     display: inline-block;
-//                     text-decoration: none;
-//                     font-weight: 900;
-//                     color: #333;
-//                     padding: .5rem;
-//                     border: 1px solid #333;
-//                     font-size: $default-font-size;
-    
-//                     &:hover {
-//                         background: #333;
-//                         color: #fff;
-//                     }
-//                 }
-//             }
-//         }
-    
-//         &:hover &__bottom {
-//             transform: translateY(0);
-//         }
-//     }
-// }
+                a {
+                    margin: 1rem .7rem 0;
+                    padding: .3rem;
+                    font-size: $font-size-small;
+                }
+            }
+        }
+    }
+}
