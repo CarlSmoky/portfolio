@@ -1,6 +1,6 @@
 .section-about {
   position: relative;
-  height: 100vh;
+  min-height: 100vh;
   background-image: linear-gradient(to right bottom, grey , pink);
 
     &__my-name {
@@ -16,22 +16,20 @@
     &__profile_photo {
       width: 10rem;
       border-radius: 50%;
-      
     }
   }
 
   .section-skill {
     background-image: linear-gradient(to right bottom, grey , pink);
+    min-height: 100vh;
   
   }
 
   .section-projects {
-    background-image: linear-gradient(to right bottom, grey , pink);
-    margin: 0;
-    padding: 0;
-    min-height: 100vh;
     background: $color-primary;
-    
+    margin: 0;
+    padding: 0 0 10rem 0;
+    min-height: 100vh;
   }
 
   .section-contact {
