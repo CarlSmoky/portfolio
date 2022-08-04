@@ -16,7 +16,7 @@ const SkillList = () => {
   })
   
   return (
-    <section className="section-skill">
+    <section className="section-skill" id="skills" >
       <div className="u-center-text u-margin-bottom-big">
         <h2 class="heading-secondary">
           Skill
