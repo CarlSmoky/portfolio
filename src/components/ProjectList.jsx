@@ -21,7 +21,7 @@ const ProjectList = () => {
   });
 
   return (
-    <section className="section-projects">
+    <section className="section-projects" id="projects">
 
       <div className="u-center-text u-margin-bottom-big">
         <h2 class="heading-secondary margin-bottom-big">
