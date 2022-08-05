@@ -1,9 +1,18 @@
 import React from 'react';
+import Skill from './Skill';
 
 const SkillItem = (props) => {
 
-  const stacks = props.stack;
-  const listItems = stacks.map((stack) => <li><span>*</span>{stack}</li>);
+  const stacks = props.stacks;
+  const listItems = stacks.map((el, i) => {
+  return (
+          <Skill
+            key={i}
+            stack={el}
+         />
+        )
+  });
+  
   return (
     <div className="skill-list__item">
       <div className="skill-list__heading">

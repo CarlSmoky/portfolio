@@ -10,15 +10,15 @@ const SkillList = () => {
         key={skill.id}
         id={skill.id}
         category={skill.category}
-        stack={skill.stack}
+        stacks={skill.stacks}
       />
     )
   })
   
   return (
     <section className="section-skill" id="skills" >
-      <div className="u-center-text u-margin-bottom-big">
-        <h2 class="heading-secondary">
+      <div className="u-center-text u-margin-bottom-small">
+        <h2 className="heading-secondary">
           Skill
         </h2>
       </div>
