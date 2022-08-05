@@ -33,8 +33,10 @@
   }
 
   .section-contact {
-    height: 100vh;
+    min-height: 100vh;
     background-image: linear-gradient(to right bottom, grey , pink);
+    position: relative;
+    padding-bottom: 10rem;
   
   }
 

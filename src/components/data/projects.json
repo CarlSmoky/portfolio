@@ -7,7 +7,7 @@
     "git_url" : "https://github.com/CarlSmoky/little_libraries_client",
     "demo_url" : "https://little-library-client.herokuapp.com/",
     "author" : "Kaoru & Jeff",
-    "stack" : "React.js, Express, PostgreSQL, react-google-maps, react-dom, JWTs, bcryptjs, axios"
+    "stacks" : "React.js, Express, PostgreSQL, react-google-maps, react-dom, JWTs, bcryptjs, axios"
   },
   {
     "id" : "2",
@@ -17,7 +17,7 @@
     "git_url" : "https://github.com/CarlSmoky/find_me-ow",
     "demo_url": "",
     "author" : "Kaoru, Mei & Walid",
-    "stack" : "React.js, Express, PostgreSQL, react-google-maps, react-dom, bcryptjs, axios"
+    "stacks" : "React.js, Express, PostgreSQL, react-google-maps, react-dom, bcryptjs, axios"
   },
   {
     "id" : "3",
@@ -27,7 +27,7 @@
     "git_url" : "https://github.com/CarlSmoky/scheduler",
     "demo_url": "",
     "author" : "Kaoru",
-    "stack" : "React.js"
+    "stacks" : "React.js"
   },
   {
     "id" : "4",
@@ -37,7 +37,7 @@
     "git_url" : "https://github.com/CarlSmoky/tweeter",
     "demo_url": "",
     "author" : "Kaoru",
-    "stack" : "HTML, CSS, JS, jQuery and AJAX"
+    "stacks" : "HTML, CSS, JS, jQuery and AJAX"
   }
 
 ]

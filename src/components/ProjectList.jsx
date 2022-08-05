@@ -15,7 +15,7 @@ const ProjectList = () => {
         demoUrl={project.demo_url}
         details={project.details}
         author={project.author}
-        stack={project.stack}
+        stacks={project.stacks}
       />
     )
   });
@@ -24,7 +24,7 @@ const ProjectList = () => {
     <section className="section-projects" id="projects">
 
       <div className="u-center-text u-margin-bottom-big">
-        <h2 class="heading-secondary margin-bottom-big">
+        <h2 className="heading-secondary">
           Most Recent Projects
         </h2>
       </div>
