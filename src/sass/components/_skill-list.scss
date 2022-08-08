@@ -11,7 +11,7 @@
     height: 40rem;
     border-radius: 0.6em;
     margin: 2rem;
-    background-color: antiquewhite;
+    background-color: $color-grey-light-2;
   }
 
   &__heading {
@@ -19,9 +19,8 @@
   }
 
   &__details {
-    font-size: 2rem;
-    text-align: left;
     padding-top: 1rem;
     padding-left: 2rem;
+    text-align: left;
   }
 }
