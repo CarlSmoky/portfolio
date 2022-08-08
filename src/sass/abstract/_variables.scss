@@ -3,15 +3,12 @@ $profile-image-width: 16rem;
 
 //COLOURS
 
-$color-primary: #006d77;
-$color-primary-light: #83c5be;
-$color-primary-dark: #ffddd2;
+$color-primary: #6689A1;
+$color-primary-light: #EAF27C;
+$color-primary-dark: #2E2E3A;
 
-$color-secondary-light: #ffb900;
-$color-secondary-dark: #ff7730;
-
-$color-tertiary-light: #2998ff;
-$color-tertiary-dark: #5643fa;
+$color-secondary-light: #FAAA8D;
+$color-secondary-dark: #B0413E;
 
 
 $color-grey-light-1: #f7f7f7;
@@ -25,15 +22,17 @@ $color-grey-dark-3: #333;
 $color-white: #fff;
 $color-black: #000;
 
-//FONT
-
-$font-size-big: 2.5rem;
+//FONT SIZE
 $default-font-size: 1.6rem;
-$font-size-middle: 2rem;
 $font-size-small: 1rem;
+$font-size-middle: 2rem;
+$font-size-big: 2.5rem;
 
+//FONT FAMILY
+$primary-font: Lato;
+$secondary-font: Merriweather;
 
-//GRID
-$grid-width: 114rem;
-$gutter-verical: 8rem;
-$gutter-horizontal: 6rem;
+//FONT WEIGHT
+$font-weight-big: 900;
+$font-weight-medium: 700;
+$font-weight-small: 400;
