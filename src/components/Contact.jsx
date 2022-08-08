@@ -30,7 +30,7 @@ const Contact = () => {
     <div className="section-contact" id="contact">
       <div className="u-center-text u-margin-bottom-small">
         <h2 className="heading-secondary">
-          Skill
+          Contact
         </h2>
       </div>
      
@@ -38,23 +38,23 @@ const Contact = () => {
         <form className="form" ref={form} onSubmit={sendEmail}>
 
           <div className="form__group">
-            <input type="text" className="form__input" placeholder="Full name" name="user_name" id="user_name" ref={user_name} required />
-            <label for="user_name" className="form__label">Full name</label>
+            <input type="text" className="form__input placeholder" placeholder="Full name" name="user_name" id="user_name" ref={user_name} required />
+            <label for="user_name" className="form__label label">Full name</label>
           </div>
 
           <div className="form__group">
-            <input type="email" className="form__input" placeholder="Email address" name="user_email" id="user_email" ref={user_email} required />
-            <label for="user_email" className="form__label">Email address</label>
+            <input type="email" className="form__input placeholder" placeholder="Email address" name="user_email" id="user_email" ref={user_email} required />
+            <label for="user_email" className="form__label label">Email address</label>
           </div>
 
           <div className="form__group">
-            <textarea className="form__textarea" placeholder="Message" name="user_message" id="user_message" rows="10" ref={user_message}required />
-            <label for="user_message" className="form__label">Message</label>
+            <textarea className="form__textarea placeholder" placeholder="Message" name="user_message" id="user_message" rows="10" ref={user_message}required />
+            <label for="user_message" className="form__label label">Message</label>
           </div>
 
           <div className="form__group">
-            <input className="form__input" type="submit" value="Send" />
-            {displayMessage && <p className="form__message">{displayMessage}</p>}
+            <input className="form__input form__button" type="submit" value="Send" />
+            {displayMessage && <p className="form__message paragraph">{displayMessage}</p>}
           </div>
         </form>
       </div>

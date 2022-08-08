@@ -19,7 +19,7 @@ const SkillItem = (props) => {
         <h3>{props.category}</h3>
       </div>
       <div className="skill-list__details">
-        <ul>{listItems}</ul>
+        <ul className="list">{listItems}</ul>
       </div>
     </div>
   )
