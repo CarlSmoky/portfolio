@@ -79,41 +79,47 @@
 }
 
 .list {
-  font-family: $secondary-font, sans-serif;;
+  font-family: $secondary-font, sans-serif;
+  ;
   font-size: $font-size-middle;
 }
 
 .placeholder {
   font-size: 2rem;
-  font-family: $secondary-font, sans-serif;;
+  font-family: $secondary-font, sans-serif;
+  ;
   font-weight: $font-weight-medium;
 }
 
 .label {
   font-size: 2rem;
-  font-family: $secondary-font, sans-serif;;
+  font-family: $secondary-font, sans-serif;
+  ;
   font-weight: $font-weight-medium;
 }
 
 .button {
   font-size: 2rem;
-  font-family: $secondary-font, sans-serif;;
+  font-family: $secondary-font, sans-serif;
+  ;
   font-weight: $font-weight-medium;
 }
+
 
 @media screen and (max-width: 500px) {
   .placeholder {
     font-size: 1.5rem;
     font-weight: $font-weight-small;
   }
-  
+
   .label {
     font-size: 1.5rem;
     font-weight: $font-weight-small;
   }
-  
+
   .button {
     font-size: 1.5rem;
     font-weight: $font-weight-big;
   }
+
 }

@@ -5,18 +5,82 @@
   background-repeat: no-repeat;
   background-position: top center;
   position: relative;
-  // background-image: linear-gradient(to right bottom, grey, pink), url(../../img/image2.jpg);
-  background: $color-primary;
+  // background: $color-primary;
+  background-image: linear-gradient(to bottom, grey, $color-primary), url(../../img/image2.jpg);
   background-blend-mode: screen;
+
 
   &__text-box {
     position: absolute;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: white;
-    font-size: 3.5rem;
+    top: 30%;
+    left: 10%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
   }
 
+  &__intro {
+    color: $color-white;
+  }
+
+  &__name {
+    color: $color-grey-dark;
+    letter-spacing: 3rem;
+    margin-bottom: 1rem;
+    font-size: 6rem;
+    font-weight: 600;
+    line-height: 1.1;
+  }
+
+  &__title {
+    color: #999;
+    letter-spacing: 2rem;
+    margin-bottom: 1.5rem;
+    font-size: 4rem;
+    font-weight: 400;
+    line-height: 1;
+  }
+
+  &__text {
+    max-width: 70rem;
+    font-size: 2.5rem;
+  }
+
+}
+
+.fadeup-enter--1 {
+  animation: fadeup 1s ease-out;
+}
+
+.fadeup-enter--2 {
+  animation: fadeup 2s ease-out;
+}
+
+.fadeup-enter--3 {
+  animation: fadeup 3s ease-out;
+}
+
+@media screen and (max-width: 500px) {
+  .header {
+    &__text-box {
+      top: 30%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    &__name {
+      font-size: 2.5rem;
+      letter-spacing: 1rem;
+    }
+
+    &__title {
+      font-size: 2rem;
+      letter-spacing: .3rem;
+    }
+
+    &__text {
+      max-width: 30rem;
+      font-size: 1.6rem;
+    }
+  }
 }
