@@ -15,7 +15,7 @@ const ProjectItem = (props) => {
                 <div className="card-bottom__content">
                     <h3 className="card-bottom__content--title">{props.title}</h3>
                     <p className="card-bottom__content--text paragraph">{props.details}</p>
-                    <p className="card-bottom__content--text paragraph-small">Stack: {props.stacks}</p>
+                    <p className="card-bottom__content--text paragraph-small">{props.stacks}</p>
                     <a className="card-bottom__content--button" href={props.gitUrl}>GitHub</a>
                     {props.demoUrl && <a className="card-bottom__content--button" href={props.demoUrl}>Live Demo</a>}
                 </div>

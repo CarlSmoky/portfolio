@@ -2,17 +2,17 @@
   {
     "id" : "1",
     "title" : "Little Library",
-    "details" : "Little_libraries_client is build with React using a Postgres/Node/Express backend, with the Google Maps API and Firebase Cloud Storage for keeping track of ‘Little Libraries’",
+    "details" : "Little_libraries_client is for keeping track of ‘Little Libraries’",
     "image_url" : "https://github.com/CarlSmoky/little_libraries_client/blob/main/docs/Little_Library-detail.png?raw=true",
     "git_url" : "https://github.com/CarlSmoky/little_libraries_client",
     "demo_url" : "https://little-library-client.herokuapp.com/",
     "author" : "Kaoru & Jeff",
-    "stacks" : "React.js, Express, PostgreSQL, react-google-maps, react-dom, JWTs, bcryptjs, axios"
+    "stacks" : "React.js, Express, PostgreSQL, Fire Base, react-google-maps"
   },
   {
     "id" : "2",
     "title" : "Find Meow!",
-    "details" : "Find Me-ow! is an app with React using a Postgres/Node/Express backend, with the Google Maps API and Twilio to help to unite lost cats and found cats with their owners.",
+    "details" : "Find Me-ow! is an app to help to unite lost cats and found cats with their owners.",
     "image_url" : "https://github.com/CarlSmoky/find_me-ow/blob/main/docs/find_me-ow_Home.png?raw=true",
     "git_url" : "https://github.com/CarlSmoky/find_me-ow",
     "demo_url": "",
