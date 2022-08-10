@@ -60,12 +60,12 @@
 
 .paragraph {
   font-family: $secondary-font;
-  font-size: $font-size-middle;
+  font-size: $font-size-medium;
 
   &-small {
     font-family: $secondary-font;
     font-size: $default-font-size;
-    font-size: $font-size-middle;
+    font-size: $font-size-medium;
     color: pink;
   }
 
@@ -81,7 +81,7 @@
 .list {
   font-family: $secondary-font, sans-serif;
   ;
-  font-size: $font-size-middle;
+  font-size: $font-size-medium;
 }
 
 .placeholder {
@@ -120,6 +120,27 @@
   .button {
     font-size: 1.5rem;
     font-weight: $font-weight-big;
+  }
+
+  .project-title {
+    font-family: $primary-font, sans-serif;
+  }
+
+  .paragraph {
+    font-family: $secondary-font;
+    font-size: $font-size-small;
+  
+    &-small {
+      font-family: $secondary-font;
+      // font-size: $default-font-size;
+      font-size: $font-size-small;
+      line-height: 1;
+      color: pink;
+    }
+  
+    &:not(:last-child) {
+      margin-bottom: 1rem;
+    }
   }
 
 }
