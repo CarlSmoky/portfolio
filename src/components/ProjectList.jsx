@@ -25,7 +25,7 @@ const ProjectList = () => {
 
       <div className="u-center-text u-margin-bottom-big">
         <h2 className="heading-secondary">
-          Most Recent Projects
+          Projects
         </h2>
       </div>
       <div className="project-list">
