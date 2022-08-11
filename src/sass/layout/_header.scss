@@ -18,34 +18,6 @@
     display: flex;
     flex-direction: column;
   }
-
-  &__intro {
-    color: $color-white;
-  }
-
-  &__name {
-    color: $color-grey-dark;
-    letter-spacing: 3rem;
-    margin-bottom: 1rem;
-    font-size: 6rem;
-    font-weight: 600;
-    line-height: 1.1;
-  }
-
-  &__title {
-    color: #999;
-    letter-spacing: 2rem;
-    margin-bottom: 1.5rem;
-    font-size: 4rem;
-    font-weight: 400;
-    line-height: 1;
-  }
-
-  &__text {
-    max-width: 70rem;
-    font-size: 2.5rem;
-  }
-
 }
 
 .fadeup-enter--1 {
@@ -66,21 +38,6 @@
       top: 40%;
       left: 50%;
       transform: translate(-50%, -50%);
-    }
-
-    &__name {
-      font-size: 2.5rem;
-      letter-spacing: 1rem;
-    }
-
-    &__title {
-      font-size: 2rem;
-      letter-spacing: .3rem;
-    }
-
-    &__text {
-      max-width: 30rem;
-      font-size: 1.6rem;
     }
   }
 }

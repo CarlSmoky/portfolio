@@ -11,16 +11,6 @@ html {
   font-size: 62.5%; //1 rem = 10px: 10px/16px = 62.5%
 }
 
-body {
-  font-family: $primary-font, sans-serif;
-  font-weight: 400;
-  background: $color-primary;
-  color: $color-grey-dark;
-  line-height: 1.7;
-  text-decoration: none;
-
-}
-
 a:link,
 a:hover,
 a:visited,

@@ -1,55 +1,43 @@
-.heading-primary {
-  color: $color-white;
-  text-transform: uppercase;
-  margin-bottom: 6rem;
+body {
+  font-family: $primary-font, sans-serif;
+  background: $color-primary;
+  color: $color-grey-dark;
+  line-height: 1.7;
+  text-decoration: none;
+}
 
+.heading-primary {
   /* To stop shaking */
   backface-visibility: hidden;
 
   &--main {
-    display: block;
+    color: $color-grey-dark;
+    letter-spacing: 3rem;
+    margin-bottom: 1rem;
     font-size: 6rem;
-    font-weight: $font-weight-small;
-    letter-spacing: 3.5rem;
-
-    animation-name: moveInLeft;
-    animation-duration: 5s;
-    animation-timing-function: ease-out;
-
-    /* animation-delay: 3s; */
-    /* animation-iteration-count: 3; */
-
-
+    font-weight: $font-weight-big;
+    line-height: 1.4;
   }
 
   &--sub {
-    display: block;
-    font-size: 2rem;
-    font-weight: 700;
-    letter-spacing: 1.75rem;
-
-    /* animation-name: moveInRight;
-    animation-duration: 5s;
-    animation-timing-function: ease-out; */
-
-    /* shorthand */
-    animation: moveInRight 5s ease-out;
+    color: #999;
+    letter-spacing: 1.8rem;
+    margin-bottom: 1.5rem;
+    font-size: 4rem;
+    font-weight: $font-weight-medium;
+    line-height: 1.4;
   }
 }
 
 .heading-secondary {
-  font-size: 3.5rem;
+  color: #999;
+  letter-spacing: 2rem;
+  margin: 1.5rem;
+  padding: 4rem 0 1rem 0;
+  font-size: $font-size-huge;
+  font-weight: $font-weight-small;
+  line-height: 1;
   text-transform: uppercase;
-  font-weight: $font-weight-medium;
-  display: inline-block;
-  background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
-  -webkit-background-clip: text;
-  color: transparent;
-  letter-spacing: .2rem;
-}
-
-.margin-bottom-big {
-  margin-bottom: 10rem;
 }
 
 .heading-tertiary {
@@ -58,21 +46,34 @@
   text-transform: uppercase;
 }
 
-.paragraph {
-  font-family: $secondary-font;
-  font-size: $font-size-medium;
+.header__paragraph {
+  font-family: $secondary-font, sans-serif;
+  max-width: 70rem;
+  font-size: $font-size-big;
+  padding-top: 1.4rem;
+}
 
-  &-small {
-    font-family: $secondary-font;
-    font-size: $default-font-size;
+.card-bottom__content {
+  text-align: left;
+  font-family: $secondary-font;
+  
+  &--text {
     font-size: $font-size-medium;
-    color: pink;
+    text-align: left;
+    &:not(:last-child) {
+      margin-bottom: 1rem;
+    }
   }
 
-  &:not(:last-child) {
-    margin-bottom: 1rem;
+  &--stack {
+    text-align: left;
+    font-size: $default-font-size;
+    font-family: $primary-font, sans-serif;
+    line-height: 2;
+    margin-left: 1rem;
   }
 }
+
 
 .project-title {
   font-family: $primary-font, sans-serif;
@@ -107,6 +108,30 @@
 
 
 @media screen and (max-width: 500px) {
+
+  .heading-primary {
+
+    &--main {
+      font-size: $font-size-huge;
+      letter-spacing: 1rem;
+    }
+
+    &--sub {
+      font-size: $font-size-medium;
+      letter-spacing: .3rem;
+    }
+  }
+
+  .header__paragraph {
+    // max-width: 30rem;
+    font-size: $font-size-small;
+  }
+
+  .heading-secondary {
+    font-size: $font-size-big;
+    padding: 2rem 0 1rem 0;
+  }
+
   .placeholder {
     font-size: 1.5rem;
     font-weight: $font-weight-small;
@@ -126,21 +151,21 @@
     font-family: $primary-font, sans-serif;
   }
 
-  .paragraph {
-    font-family: $secondary-font;
-    font-size: $font-size-small;
-  
-    &-small {
+  .card-bottom__content {
+    &--text {
       font-family: $secondary-font;
-      // font-size: $default-font-size;
+      font-size: $font-size-small;
+
+      &:not(:last-child) {
+        margin-bottom: 1rem;
+      }
+    }
+
+    &--stack {
       font-size: $font-size-small;
       line-height: 1;
-      color: pink;
-    }
-  
-    &:not(:last-child) {
-      margin-bottom: 1rem;
     }
   }
+
 
 }
