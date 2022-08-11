@@ -7,7 +7,7 @@ const ProjectItem = (props) => {
         <div className="card">
             <div className="card__face card-top">
                 <div className="card-top__content">
-                    <img src={props.imageUrl} />
+                    <img className="card-top__content--image" src={props.imageUrl} />
                     <h3 className="card-top__content--title">{props.title}</h3>
                 </div>
             </div>
