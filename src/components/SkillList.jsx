@@ -17,7 +17,7 @@ const SkillList = () => {
   
   return (
     <section className="section-skill" id="skills" >
-      <div className="u-center-text u-margin-bottom-small">
+      <div className="u-center-text u-margin-bottom-big">
         <h2 className="heading-secondary">
           Skill
         </h2>

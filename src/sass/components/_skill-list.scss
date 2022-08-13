@@ -5,22 +5,34 @@
   flex-wrap: wrap;
 
   &__item {
-    // border: 2px solid $color-primary;
-    border-radius: 10px;
     width: 45rem;
-    height: 40rem;
-    border-radius: 0.6em;
+    min-height: 40rem;
+    border-radius: 0.6rem;
     margin: 2rem;
     background-color: $color-grey-light-2;
-  }
-
-  &__heading {
-    font-size: 3rem;
   }
 
   &__details {
     padding-top: 1rem;
     padding-left: 2rem;
+    padding-bottom: 2rem;
     text-align: left;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .skill-list {
+    &__item {
+      border-radius: 6px;
+      width: 35rem;
+      min-height: 20rem;
+      margin: .5rem 1rem;
+    }
+  
+    &__details {
+      padding-top: 1rem;
+      padding-left: 2rem;
+      text-align: left;
+    }
   }
 }
