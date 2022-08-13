@@ -33,15 +33,16 @@ body {
   color: #999;
   letter-spacing: 2rem;
   margin: 1.5rem;
-  padding: 4rem 0 1rem 0;
+  padding: 4rem 0 1rem 10rem;
   font-size: $font-size-huge;
   font-weight: $font-weight-small;
   line-height: 1;
   text-transform: uppercase;
+  text-align: left;
 }
 
 .heading-tertiary {
-  font-size: $default-font-size;
+  font-size: $font-size-big;
   font-weight: $font-weight-medium;
   text-transform: uppercase;
 }
@@ -83,6 +84,7 @@ body {
   font-family: $secondary-font, sans-serif;
   ;
   font-size: $font-size-medium;
+  font-weight: $font-weight-small;
 }
 
 .placeholder {
@@ -122,14 +124,18 @@ body {
     }
   }
 
-  .header__paragraph {
-    // max-width: 30rem;
-    font-size: $font-size-small;
-  }
-
   .heading-secondary {
     font-size: $font-size-big;
     padding: 2rem 0 1rem 0;
+  }
+
+  .heading-tertiary {
+    font-size: $font-size-medium;
+  }
+
+  .header__paragraph {
+    // max-width: 30rem;
+    font-size: $font-size-small;
   }
 
   .placeholder {
@@ -166,6 +172,13 @@ body {
       line-height: 1;
     }
   }
+
+  .list {
+    font-family: $secondary-font, sans-serif;
+    font-size: $font-size-small;
+    font-weight: $font-weight-small;
+  }
+  
 
 
 }

@@ -16,7 +16,7 @@ const SkillItem = (props) => {
   return (
     <div className="skill-list__item">
       <div className="skill-list__heading">
-        <h3>{props.category}</h3>
+        <h3 className="heading-tertiary">{props.category}</h3>
       </div>
       <div className="skill-list__details">
         <ul className="list">{listItems}</ul>
