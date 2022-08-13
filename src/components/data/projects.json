@@ -25,7 +25,7 @@
     "details" : "Interview Scheduler is a one page application built with React using Jest, Storybook, and Cypress for arranging interview schedules.",
     "image_url" : "https://github.com/CarlSmoky/scheduler/blob/master/docs/Schduler.png?raw=true",
     "git_url" : "https://github.com/CarlSmoky/scheduler",
-    "demo_url": "",
+    "demo_url": "https://precious-cassata-827713.netlify.app/",
     "author" : "Kaoru",
     "stacks" : "React.js"
   },
