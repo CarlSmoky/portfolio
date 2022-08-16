@@ -2,39 +2,30 @@
 
   &__box {
     position: absolute;
-    display: flex;
-    flex-direction: row;
-    // padding: 10rem 0 0 20rem;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: row;
     border-radius: 5rem;
-
+    max-width: 90rem;
   }
 
   &__image {
     display: flex;
     flex-direction: column;
-    color: white;
     width: $profile-image-width;
-    width: 40rem;
-
-
+    width: 30%;
 
     &--photo {
       border-radius: 5rem;
       box-shadow: 0 -2rem 5rem rgba(0, 0, 0, 0.5);
-
-    }
-
-    &--name {
-      font-size: $font-size-big;
     }
   }
 
 
   &__text {
-    width: 70rem;
+    max-width: 70rem;
     font-size: $font-size-big;
     margin: auto;
     padding: 0 2rem;
@@ -44,19 +35,58 @@
   }
 }
 
+@media screen and (max-width: 800px) {
+  .about {
+
+    &__box {
+      flex-direction: column;
+    }
+
+    &__image {
+      border-radius: 50%;
+      max-width: 30rem;
+      margin: 0 auto;
+
+      &--photo {
+        border-radius: 50%;
+        // box-shadow: 0 -2rem 5rem rgba(0, 0, 0, 0.5);
+      }
+  
+    }
+
+    &__text {
+      width: 50rem;
+      font-size: $default-font-size;
+      margin: auto;
+      padding: 2rem 0;
+    }
+  }
+}
+
 @media screen and (max-width: 500px) {
   .about {
 
     &__box {
-      // position: absolute;
-      // display: flex;
-      // flex-direction: column;
-      // padding: 10rem 0 0 20rem;
-      // top: 50%;
-      // left: 50%;
-      // transform: translate(-50%, -50%);
-      border-radius: 5rem;
+      flex-direction: column;
+    }
 
+    &__image {
+      border-radius: 50%;
+      max-width: 20rem;
+      margin: 0 auto;
+
+      &--photo {
+        border-radius: 50%;
+        // box-shadow: 0 -2rem 5rem rgba(0, 0, 0, 0.5);
+      }
+  
+    }
+
+    &__text {
+      width: 30rem;
+      font-size: $default-font-size;
+      margin: auto;
+      padding: 2rem 0;
     }
   }
 }
