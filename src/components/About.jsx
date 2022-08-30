@@ -1,5 +1,6 @@
 import React from 'react';
 import profilePhoto from '../img/image5.jpg';
+import SkillList from "./SkillList";
 
 const About = () => {
   return (
@@ -13,8 +14,13 @@ const About = () => {
         <div className="about__image">
           <img className="about__image--photo" src={profilePhoto} alt="profile_photo" />
         </div>
-        <div className="about__text">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde possimus expedita quam error aspernatur, distinctio libero voluptatibus reiciendis fugiat nisi dolores incidunt, alias aliquam? Ex ratione laboriosam amet neque mollitia.</p>
+        <div className="about__description">
+          <div className="about__text">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde possimus expedita quam error aspernatur, distinctio libero voluptatibus reiciendis fugiat nisi dolores incidunt, alias aliquam? Ex ratione laboriosam amet neque mollitia.</p>
+          </div>
+          <div className="section-skill">
+            <SkillList></SkillList>
+          </div>
         </div>
       </div>
     </section>

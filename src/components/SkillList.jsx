@@ -17,10 +17,9 @@ const SkillList = () => {
   
   return (
     <section className="section-skill" id="skills" >
-      <div className="u-center-text u-margin-bottom-big">
-        <h2 className="heading-secondary">
-          Skill
-        </h2>
+      <hr/>
+      <div className="skill-list__heading">
+        <h3 className="heading-tertiary">Skills</h3>
       </div>
       <div className="skill-list">
         {displaySkills}

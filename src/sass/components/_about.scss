@@ -19,16 +19,20 @@
 
     &--photo {
       border-radius: 5rem;
-      box-shadow: 0 -2rem 5rem rgba(0, 0, 0, 0.5);
+      box-shadow: 0 0 3rem rgba(0, 0, 0, 0.35);
     }
+  }
+
+  &__description {
+    padding: 0 3rem;
+    max-width: 80rem;
   }
 
 
   &__text {
-    max-width: 70rem;
+    
     font-size: $font-size-big;
     margin: auto;
-    padding: 0 2rem;
     font-family: $secondary-font, sans-serif;
     font-weight: $font-weight-small;
     text-align: left;
@@ -37,8 +41,9 @@
 
 @media screen and (max-width: 800px) {
   .about {
-
+    
     &__box {
+      top: 65%;
       flex-direction: column;
     }
 
