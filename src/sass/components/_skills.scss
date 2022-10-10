@@ -1,3 +1,36 @@
+
+.skills {
+  &__container {
+    width: 100%;
+  }
+  
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    justify-content: center;
+    text-align: center;
+    margin: 10rem;
+    padding-top: 10rem;
+    
+    &-items {
+      display: flex;
+      flex-direction: column;
+      padding: 12rem;
+    }
+    
+    &-name {
+      font-size: $font-size-big;
+      color: $color-grey-light-1;
+    }
+    
+  }
+}
+
+
 svg {
   width: 10rem;
+}
+
+@media screen and (max-width: 500px) {
 }
