@@ -1,6 +1,6 @@
 import React from 'react';
 import profilePhoto from '../img/image5.jpg';
-import SkillList from "./SkillList";
+// import SkillList from "./SkillList";
 
 const About = () => {
   return (
@@ -16,10 +16,10 @@ const About = () => {
         </div>
         <div className="about__description">
           <div className="about__text">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde possimus expedita quam error aspernatur, distinctio libero voluptatibus reiciendis fugiat nisi dolores incidunt, alias aliquam? Ex ratione laboriosam amet neque mollitia.</p>
+            <p>I’ve recently transitioned into a career as a full stack developer, and I’m excited by all the possibilities in modern web technology and the opportunities they can provide, and am driven to learn and continuously improve my own skills. Bridging the gap between people and technology to make lives easier is a crucial motivation for me.</p>
           </div>
           <div className="section-skill">
-            <SkillList></SkillList>
+            {/* <SkillList></SkillList> */}
           </div>
         </div>
       </div>
