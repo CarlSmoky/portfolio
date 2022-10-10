@@ -10,17 +10,16 @@
     -webkit-box-pack: center;
     justify-content: center;
     text-align: center;
-    margin: 10rem;
     padding-top: 10rem;
     
     &-items {
       display: flex;
       flex-direction: column;
-      padding: 12rem;
+      padding: 9rem;
     }
     
     &-name {
-      font-size: $font-size-big;
+      font-size: $default-font-size;
       color: $color-grey-light-1;
     }
     
@@ -29,7 +28,7 @@
 
 
 svg {
-  width: 10rem;
+  width: 8rem;
 }
 
 @media screen and (max-width: 500px) {
