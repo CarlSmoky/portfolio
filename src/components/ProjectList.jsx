@@ -23,11 +23,10 @@ const ProjectList = () => {
   return (
     <section className="section-projects" id="projects">
 
-      <div className="u-center-text u-margin-bottom-big">
-        <h2 className="heading-secondary">
+        <h2 className="heading-secondary u-center-text u-margin-bottom-big">
           Projects
         </h2>
-      </div>
+    
       <div className="project-list">
         {displayProjects}
       </div>
