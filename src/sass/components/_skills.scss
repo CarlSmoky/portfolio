@@ -1,9 +1,8 @@
-
 .skills {
   &__container {
     width: 100%;
   }
-  
+
   &__list {
     display: flex;
     flex-wrap: wrap;
@@ -12,13 +11,13 @@
     text-align: center;
     padding-top: 10rem;
     margin: 0 3%;
-    
+
     &-items {
       display: flex;
       flex-direction: column;
-      padding: 9rem;
+      padding: 7rem;
     }
-    
+
     &-name {
       font-size: $default-font-size;
       color: $color-grey-light-1;
@@ -27,12 +26,41 @@
     & svg {
       width: 8rem;
     }
-    
+
   }
 }
 
 
 
 
+@media screen and (max-width: 800px) {
+  .skills {
+    &__list {
+      &-items {
+        padding: 5rem;
+      }
+
+      & svg {
+        width: 6rem;
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 500px) {
+  .skills {
+    &__list {
+      &-items {
+        padding: 3rem;
+      }
+
+      &-name {
+        font-size: $font-size-extrasmall;
+      }
+
+      & svg {
+        width: 4rem;
+      }
+    }
+  }
 }
