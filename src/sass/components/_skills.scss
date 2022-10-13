@@ -23,14 +23,16 @@
       font-size: $default-font-size;
       color: $color-grey-light-1;
     }
+
+    & + svg {
+      width: 8rem;
+    }
     
   }
 }
 
 
-svg {
-  width: 8rem;
-}
+
 
 @media screen and (max-width: 500px) {
 }
