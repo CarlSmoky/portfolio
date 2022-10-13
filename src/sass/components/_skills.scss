@@ -8,9 +8,10 @@
     display: flex;
     flex-wrap: wrap;
     -webkit-box-pack: center;
-    justify-content: center;
+    justify-content: space-evenly;
     text-align: center;
     padding-top: 10rem;
+    margin: 0 3%;
     
     &-items {
       display: flex;
