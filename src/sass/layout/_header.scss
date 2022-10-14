@@ -1,11 +1,9 @@
 .header {
   height: 100vh;
-  // width: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
   position: relative;
-  // background: $color-primary;
   background-image: linear-gradient(to bottom, grey, $color-primary), url(../../img/image2.jpg);
   background-blend-mode: screen;
 
