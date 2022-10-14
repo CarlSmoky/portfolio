@@ -25,7 +25,7 @@
 
   &__description {
     // padding: 0 3rem;
-    width: 70%;
+    // width: 75%;
     margin: auto 3rem;
   }
 
@@ -44,8 +44,10 @@
   .about {
     
     &__box {
-      top: 65%;
+      // top: 60%;
+      
       flex-direction: column;
+      width: 90%;
     }
 
     &__image {
@@ -58,6 +60,10 @@
         // box-shadow: 0 -2rem 5rem rgba(0, 0, 0, 0.5);
       }
   
+    }
+
+    &__description {
+      margin: 0;
     }
 
     &__text {
@@ -74,6 +80,7 @@
 
     &__box {
       flex-direction: column;
+      width: 90%;
     }
 
     &__image {
@@ -88,8 +95,10 @@
   
     }
 
+    
+
     &__text {
-      width: 30rem;
+      width: 90%;
       font-size: $default-font-size;
       margin: auto;
       padding: 2rem 0;
