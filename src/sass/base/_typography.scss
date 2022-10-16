@@ -14,7 +14,7 @@ body {
     color: $color-grey-dark;
     letter-spacing: 3rem;
     margin-bottom: 1rem;
-    font-size: 6rem;
+    font-size: $font-size-huge;
     font-weight: $font-weight-big;
     line-height: 1.4;
   }
@@ -56,24 +56,33 @@ body {
   padding-top: 1.4rem;
 }
 
+.about__paragraph {
+  font-size: $font-size-medium;
+  font-family: $secondary-font, sans-serif;
+  font-weight: $font-weight-small;
+}
+
+.card-top__content--title {
+  font-size: $default-font-size;
+}
+
 .card-bottom__content {
-  text-align: left;
+  
   font-family: $secondary-font;
+
+  &--title {
+    font-size: $default-font-size;
+    text-transform: uppercase;
+  }
   
   &--text {
-    // font-size: $font-size-medium;
-    text-align: left;
-    &:not(:last-child) {
-      margin-bottom: 1rem;
-    }
+    font-size: $default-font-size;
   }
 
   &--stack {
-    text-align: left;
-    // font-size: $default-font-size;
+    font-size: $font-size-small;
     font-family: $primary-font;
     line-height: 2;
-    margin-left: 1rem;
   }
 }
 
@@ -114,18 +123,21 @@ body {
   .heading-primary {
 
     &--main {
-      font-size: $font-size-huge;
-      letter-spacing: 1rem;
+      font-size: $font-size-big;
+      letter-spacing: .7rem;
+      font-weight: $font-weight-big ;
+      line-height: 1;
     }
 
     &--sub {
-      font-size: $font-size-medium;
+      font-size: $default-font-size;
       letter-spacing: .3rem;
     }
   }
 
   .heading-secondary {
-    font-size: $font-size-big;
+    font-size: $font-size-medium;
+    letter-spacing: 1rem;
   }
 
   .heading-tertiary {
@@ -133,8 +145,11 @@ body {
   }
 
   .header__paragraph {
-    // max-width: 30rem;
-    font-size: $font-size-small;
+    font-size: $default-font-size;
+  }
+
+  .about__paragraph {
+    font-size: $default-font-size;
   }
 
   .placeholder {
@@ -174,10 +189,7 @@ body {
 
   .list {
     font-family: $secondary-font;
-    font-size: $font-size-small;
     font-weight: $font-weight-small;
+    font-size: $font-size-small;
   }
-  
-
-
 }

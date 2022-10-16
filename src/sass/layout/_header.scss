@@ -1,11 +1,9 @@
 .header {
   height: 100vh;
-  // width: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
   position: relative;
-  // background: $color-primary;
   background-image: linear-gradient(to bottom, grey, $color-primary), url(../../img/image2.jpg);
   background-blend-mode: screen;
 
@@ -35,9 +33,9 @@
 @media screen and (max-width: 500px) {
   .header {
     &__text-box {
-      top: 40%;
-      left: 50%;
-      transform: translate(-50%, -40%);
+      top: 50%;
+      left: 30%;
+      transform: translate(-30%, -50%);
     }
   }
 }

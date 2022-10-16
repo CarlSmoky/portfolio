@@ -24,18 +24,12 @@
   }
 
   &__description {
-    // padding: 0 3rem;
-    width: 70%;
     margin: auto 3rem;
   }
 
 
   &__text {
-    
-    font-size: $font-size-medium;
     margin: auto;
-    font-family: $secondary-font, sans-serif;
-    font-weight: $font-weight-small;
     text-align: left;
   }
 }
@@ -44,27 +38,24 @@
   .about {
     
     &__box {
-      top: 65%;
       flex-direction: column;
     }
 
     &__image {
-      border-radius: 50%;
       max-width: 40rem;
       margin: 0 auto;
 
       &--photo {
         border-radius: 50%;
-        // box-shadow: 0 -2rem 5rem rgba(0, 0, 0, 0.5);
       }
-  
+    }
+
+    &__description {
+      margin: 0;
     }
 
     &__text {
-      width: 70rem;
-      font-size: $default-font-size;
-      margin: auto;
-      padding: 2rem 0;
+      padding: 3rem 0;
     }
   }
 }
@@ -72,27 +63,10 @@
 @media screen and (max-width: 500px) {
   .about {
 
-    &__box {
-      flex-direction: column;
-    }
-
     &__image {
-      border-radius: 50%;
-      max-width: 20rem;
-      margin: 0 auto;
-
       &--photo {
-        border-radius: 50%;
-        // box-shadow: 0 -2rem 5rem rgba(0, 0, 0, 0.5);
+      width: 15rem;
       }
-  
-    }
-
-    &__text {
-      width: 30rem;
-      font-size: $default-font-size;
-      margin: auto;
-      padding: 2rem 0;
     }
   }
 }

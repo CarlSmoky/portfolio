@@ -14,7 +14,7 @@ const About = () => {
         </div>
         <div className="about__description">
           <div className="about__text">
-            <p>I’ve recently transitioned into a career as a full stack developer, and I’m excited by all the possibilities in modern web technology and the opportunities they can provide, and am driven to learn and continuously improve my own skills. Bridging the gap between people and technology to make lives easier is a crucial motivation for me.</p>
+            <p className="about__paragraph">I’ve recently transitioned into a career as a full stack developer, and I’m excited by all the possibilities in modern web technology and the opportunities they can provide, and am driven to learn and continuously improve my own skills. Bridging the gap between people and technology to make lives easier is a crucial motivation for me.</p>
           </div>
           <div className="section-skill">
           </div>

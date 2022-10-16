@@ -1,4 +1,8 @@
 import React from 'react';
+import { FiGithub } from 'react-icons/fi';
+import { GoBrowser } from 'react-icons/go';
+
+
 
 const ProjectItem = (props) => {
 
@@ -16,8 +20,12 @@ const ProjectItem = (props) => {
                     <h3 className="card-bottom__content card-bottom__content--title">{props.title}</h3>
                     <p className="card-bottom__content--text">{props.details}</p>
                     <p className="card-bottom__content--stack">{props.stacks}</p>
-                    <a className="card-bottom__content--button" href={props.gitUrl}>GitHub</a>
-                    {props.demoUrl && <a className="card-bottom__content--button" href={props.demoUrl}>Live Demo</a>}
+                    <a className="card-bottom__content--button" href={props.gitUrl}>
+                        <FiGithub />
+                    </a>
+                    {props.demoUrl && <a className="card-bottom__content--button" href={props.demoUrl}>
+                        <GoBrowser />
+                    </a>}
                 </div>
             </div>
         </div>
