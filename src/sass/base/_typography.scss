@@ -62,24 +62,27 @@ body {
   font-weight: $font-weight-small;
 }
 
+.card-top__content--title {
+  font-size: $default-font-size;
+}
+
 .card-bottom__content {
-  text-align: left;
+  
   font-family: $secondary-font;
+
+  &--title {
+    font-size: $default-font-size;
+    text-transform: uppercase;
+  }
   
   &--text {
-    // font-size: $font-size-medium;
-    text-align: left;
-    &:not(:last-child) {
-      margin-bottom: 1rem;
-    }
+    font-size: $default-font-size;
   }
 
   &--stack {
-    text-align: left;
-    // font-size: $default-font-size;
+    font-size: $font-size-small;
     font-family: $primary-font;
     line-height: 2;
-    margin-left: 1rem;
   }
 }
 
@@ -186,7 +189,7 @@ body {
 
   .list {
     font-family: $secondary-font;
-    font-size: $font-size-small;
     font-weight: $font-weight-small;
+    font-size: $font-size-small;
   }
 }
