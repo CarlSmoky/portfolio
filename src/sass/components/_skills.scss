@@ -36,6 +36,7 @@
 @media screen and (max-width: 800px) {
   .skills {
     &__list {
+      margin: 0;
       &-items {
         padding: 5rem;
       }
