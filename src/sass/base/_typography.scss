@@ -98,23 +98,22 @@ body {
 }
 
 .placeholder {
-  font-size: 2rem;
+  font-size: $default-font-size;
   font-family: $secondary-font;
-  font-weight: $font-weight-medium;
+  font-weight: $font-weight-small;
 }
 
 .label {
-  font-size: 2rem;
+  font-size: $default-font-size;
   font-family: $secondary-font;
   ;
   font-weight: $font-weight-medium;
 }
 
-.button {
-  font-size: 2rem;
-  font-family: $secondary-font;
-  ;
-  font-weight: $font-weight-medium;
+.form__button {
+  font-size: $font-size-medium;
+  font-family: $font-weight-medium;
+  font-weight: $font-weight-small;
 }
 
 
@@ -153,7 +152,6 @@ body {
   }
 
   .placeholder {
-    font-size: 1.5rem;
     font-weight: $font-weight-small;
   }
 
