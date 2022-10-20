@@ -20,14 +20,13 @@
 
 .section-contact {
   position: relative;
-  min-height: 100vh;
   background: $color-primary;
-  padding-bottom: 10rem;
+  margin-bottom: 15rem;
 
 }
 
-@media screen and (max-width: 500px) {
-  .section-about {
-    // height: ;
+@media screen and (max-width: 800px) {
+  .section-contact  {
+    margin-bottom: 5rem;
   }
 }
