@@ -35,6 +35,7 @@ body {
   color: #999;
   letter-spacing: 2rem;
   margin: 4rem 0 4rem;
+  padding-top: 1rem;
   font-size: $font-size-big;
   font-weight: $font-weight-small;
   line-height: 1;
@@ -112,7 +113,13 @@ body {
 
 .form__button {
   font-size: $font-size-medium;
-  font-family: $font-weight-medium;
+  font-family: $secondary-font;
+  font-weight: $font-weight-small;
+}
+
+.footer__text {
+  font-size: $default-font-size;
+  font-family: $secondary-font;
   font-weight: $font-weight-small;
 }
 
