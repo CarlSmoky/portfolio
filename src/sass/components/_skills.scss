@@ -1,6 +1,7 @@
 .skills {
   &__container {
     width: 100%;
+    background-color: $color-grey-light-2;
   }
 
   &__list {
@@ -20,11 +21,11 @@
 
     &-name {
       font-size: $default-font-size;
-      color: $color-grey-light-1;
     }
 
     & svg {
       width: 8rem;
+      height: 8rem;
     }
 
   }

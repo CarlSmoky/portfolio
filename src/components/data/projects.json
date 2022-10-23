@@ -7,12 +7,12 @@
     "git_url" : "https://github.com/CarlSmoky/interview_client",
     "demo_url" : "https://acetheinterview.netlify.app/",
     "author" : "Kaoru",
-    "stacks" : "React, Node.js, mongoDB, Sass"
+    "stacks" : "React, Node.js, MongoDB, Sass"
   },
   {
     "id" : "2",
     "title" : "Little Library",
-    "details" : "Little_libraries_client is for keeping track of ‘Little Libraries’",
+    "details" : "Little library is for keeping track of ‘Little Libraries’",
     "image_url" : "https://github.com/CarlSmoky/little_libraries_client/blob/main/docs/Little_Library-detail.png?raw=true",
     "git_url" : "https://github.com/CarlSmoky/little_libraries_client",
     "demo_url" : "https://little-library-client.herokuapp.com/",
