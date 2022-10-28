@@ -4,7 +4,7 @@ import profilePhoto from '../img/image5.jpg';
 
 const About = () => {
   return (
-    <section className="section-about u-center-text u-margin-bottom-small" id="about" >
+    <section className="section-about u-center-text" id="about" >
         <h2 className="heading-secondary">
           About Me
         </h2>
