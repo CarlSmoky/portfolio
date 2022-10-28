@@ -1,13 +1,12 @@
 .section-about {
   position: relative;
   height: 100vh;
-  // background-image: linear-gradient(to bottom, $color-primary , $color-grey-light-2);
-  background: $color-primary;
+  background-image: linear-gradient(to bottom, $color-primary , $color-primary-light);
 }
 
 .section-skills {
   position: relative;
-  background: $color-primary;
+  background: $color-primary-light;
   margin: 0 auto;
 }
 
@@ -21,12 +20,21 @@
 .section-contact {
   position: relative;
   background: $color-primary;
-  margin-bottom: 15rem;
+  padding-bottom: 15rem;
 
+}
+
+.screenreader-only {
+  position:absolute;
+  left:-10000px;
+  top:auto;
+  width: 1rem;
+  height: 1rem;
+  overflow:hidden;
 }
 
 @media screen and (max-width: 800px) {
   .section-contact  {
-    margin-bottom: 5rem;
+    padding-bottom: 6rem;
   }
 }
