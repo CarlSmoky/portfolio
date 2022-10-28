@@ -57,6 +57,11 @@ body {
   color: #63585E;
 }
 
+.nav__copyright {
+  font-size: 1.2rem;
+  color: $color-grey-dark;
+}
+
 .about__paragraph {
   font-size: $font-size-medium;
   font-family: $secondary-font, sans-serif;
