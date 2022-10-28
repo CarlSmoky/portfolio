@@ -1,6 +1,6 @@
 import React from 'react';
 import { FiGithub } from 'react-icons/fi';
-import { GoBrowser } from 'react-icons/go';
+import { FaLaptopCode } from 'react-icons/fa';
 
 
 
@@ -11,7 +11,7 @@ const ProjectItem = (props) => {
         <div className="card">
             <div className="card__face card-top">
                 <div className="card-top__content">
-                    <img className="card-top__content--image" src={props.imageUrl} />
+                    <img className="card-top__content--image" src={props.imageUrl} alt={`${props.title} screen shot`} />
                     <h3 className="card-top__content--title">{props.title}</h3>
                 </div>
             </div>
@@ -20,11 +20,13 @@ const ProjectItem = (props) => {
                     <h3 className="card-bottom__content card-bottom__content--title">{props.title}</h3>
                     <p className="card-bottom__content--text">{props.details}</p>
                     <p className="card-bottom__content--stack">{props.stacks}</p>
-                    <a className="card-bottom__content--button" href={props.gitUrl}>
+                    <a className="card-bottom__content--button" href={props.gitUrl} target="_blank">
                         <FiGithub />
+                        <span class="screenreader-only">GitHub</span>
                     </a>
-                    {props.demoUrl && <a className="card-bottom__content--button" href={props.demoUrl}>
-                        <GoBrowser />
+                    {props.demoUrl && <a className="card-bottom__content--button" href={props.demoUrl} target="_blank">
+                        <FaLaptopCode />
+                        <span class="screenreader-only">Live Demo</span>
                     </a>}
                 </div>
             </div>

@@ -15,7 +15,7 @@
   &__textarea {
     color: inherit;
     padding: 1.5rem 2rem;
-    border-radius: 2px;
+    border-radius: 5px;
     background-color: rgba($color-white, .5);
     border: none;
     border-bottom: 3px solid transparent;
@@ -30,7 +30,7 @@
     }
 
     &:focus:invalid {
-      border-bottom: 3px solid $color-primary-light;
+      border-bottom: 3px solid $color-primary-dark;
     }
 
     &::-webkit-input-placeholder {
@@ -62,9 +62,9 @@
   &__button {
     display: inline-block;
     text-decoration: none;
-    color: $color-primary;
     padding: 1rem;
     border: 1px solid $color-primary;
+    cursor: pointer;
 
 
     &:hover {
