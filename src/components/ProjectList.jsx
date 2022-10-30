@@ -2,7 +2,7 @@ import React from 'react';
 import ProjectItem from './ProjectItem';
 import projects from './data/projects.json';
 
-const ProjectList = () => {
+const ProjectList = ({projectRef}) => {
 
   const displayProjects = projects.map(project => {
     return (
@@ -21,7 +21,7 @@ const ProjectList = () => {
   });
 
   return (
-    <section className="section-projects" id="projects">
+    <section className="section-projects" id="projects" ref={projectRef} >
 
         <h2 className="heading-secondary u-center-text u-margin-bottom-big">
           Projects
