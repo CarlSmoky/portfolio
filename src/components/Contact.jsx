@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 
-const Contact = () => {
+const Contact = ({contactRef}) => {
   const form = useRef();
   const user_name = useRef();
   const user_email = useRef();
@@ -27,7 +27,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="section-contact" id="contact">
+    <div className="section-contact" id="contact" ref={contactRef}>
       <div className="u-center-text u-margin-bottom-small">
         <h2 className="heading-secondary u-margin-bottom-big">
           Get in Touch

@@ -13,9 +13,9 @@ import { FaGitAlt } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
 import { FaLinux } from 'react-icons/fa';
 
-const Skills = () => {
+const Skills = ( { skillRef }) => {
   return (
-    <section className="section-skills u-center-text u-margin-bottom-small" id="skills">
+    <section className="section-skills u-center-text u-margin-bottom-small" id="skills" ref={skillRef}>
       <h2 className="heading-secondary u-margin-bottom-big">
         Skills
       </h2>

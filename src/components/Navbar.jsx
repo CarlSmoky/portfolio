@@ -6,40 +6,39 @@ import { BiCodeAlt } from 'react-icons/bi';
 import { FaLaptopCode } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 
-const Navbar = ({isMobile}) => {
+const Navbar = ({isMobile, isVisible}) => {
   const currentDate = new Date();
   const currentYear = currentDate.getFullYear();
-  const [activeNav, setActiveNav] = useState('#home');
 
   return (
     <nav className="nav">
       <div className="nav__social-list">
       <Tooltip text="Home">
-        <a href="#home" onClick={() => setActiveNav('#home')} className={activeNav === '#home' ? 'active' : ''}>
+        <a href="#home"  className={isVisible.isHeaderVisible ? 'active' : ''}>
           <AiOutlineHome />
           <span class="screenreader-only">Home</span>
         </a>
       </Tooltip>
       <Tooltip text="About">
-        <a href="#about" onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}>
+        <a href="#about"  className={isVisible.isAboutVisible  ? 'active' : ''}>
           <AiOutlineUser />
           <span class="screenreader-only">About</span>
         </a>
       </Tooltip>
       <Tooltip text="Skill">
-        <a href="#skills" onClick={() => setActiveNav('#skill')} className={activeNav === '#skill' ? 'active' : ''}>
+        <a href="#skills"  className={isVisible.isSkillVisible  ? 'active' : ''}>
           <BiCodeAlt />
           <span class="screenreader-only">Skill</span>
         </a>
       </Tooltip>
       <Tooltip text="Project">
-        <a href="#projects" onClick={() => setActiveNav('#projects')} className={activeNav === '#projects' ? 'active' : ''}>
+        <a href="#projects"  className={isVisible.isProjectVisible  ? 'active' : ''}>
           <FaLaptopCode />
           <span class="screenreader-only">Project</span>
         </a>
       </Tooltip>
       <Tooltip text="Mail">
-        <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}>
+        <a href="#contact"  className={isVisible.isContactVisible  ? 'active' : ''}>
           <HiOutlineMail />
           <span class="screenreader-only">Mail</span>
         </a>

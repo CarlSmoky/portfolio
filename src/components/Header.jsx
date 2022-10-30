@@ -1,8 +1,8 @@
 import React from "react";
 
-function Header() {
+function Header({ headerRef }) {
   return (
-    <header className="header" id="home">
+    <header className="header" id="home" ref={headerRef} >
       {/* <div class="header__logo-box">
         <img src="img/logo-white.png" alt="Logo" class="header__logo" />
       </div> */}

@@ -2,9 +2,9 @@ import React from 'react';
 import profilePhoto from '../img/image5.jpg';
 // import SkillList from "./SkillList";
 
-const About = () => {
+const About = ( {aboutRef} ) => {
   return (
-    <section className="section-about u-center-text" id="about" >
+    <section className="section-about u-center-text" id="about" ref={aboutRef}>
         <h2 className="heading-secondary">
           About Me
         </h2>
