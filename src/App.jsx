@@ -11,7 +11,6 @@ import Viewport from "./helpers/Viewport";
 import { useInView } from 'react-intersection-observer';
 
 export default function App() {
-  // const { myRef, myElementVisible, } = useInView();
   const { width } = Viewport();
   const breakpoint = 800;
 
@@ -22,7 +21,9 @@ export default function App() {
   const [headerRef, isHeaderVisible] = useInView(options);
   const [aboutRef, isAboutVisible] = useInView(options);
   const [skillRef, isSkillVisible] = useInView(options);
-  const [projectRef, isProjectVisible] = useInView(options);
+  const [projectRef, isProjectVisible] = useInView({
+    threshold : .1,
+  });
   const [contactRef, isContactVisible] = useInView(options);
 
   const isVisible = {
@@ -53,10 +54,10 @@ export default function App() {
       {width >= breakpoint ? <SocialList addClass="desktop" /> : ""}
       <Header headerRef={headerRef} />
       <Navbar isVisible={isVisible}/>
-      <About aboutRef={aboutRef} />
-      <Skills skillRef={skillRef} />
-      <ProjectList projectRef={projectRef} />
-      <Contact contactRef={contactRef} />
+      <About aboutRef={aboutRef} isAboutVisible={isAboutVisible}/>
+      <Skills skillRef={skillRef} isSkillVisible={isSkillVisible}/>
+      <ProjectList projectRef={projectRef} isProjectVisible={isProjectVisible} />
+      <Contact contactRef={contactRef} isContactVisible={isContactVisible} />
       {width >= breakpoint ? "" : <SocialList addClass="mobile" />}
     </div >
   );

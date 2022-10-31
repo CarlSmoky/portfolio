@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 
-const Contact = ({contactRef}) => {
+const Contact = ({ contactRef, isContactVisible }) => {
   const form = useRef();
   const user_name = useRef();
   const user_email = useRef();
@@ -17,22 +17,17 @@ const Contact = ({contactRef}) => {
         user_name.current.value = "";
         user_email.current.value = "";
         user_message.current.value = "";
-
-        console.log(result.text);
-
       }, (error) => {
         setDisplayMessage("Error occured. Your message hasn't been sent");
-        console.log(error.text);
       });
   };
 
   return (
-    <div className="section-contact" id="contact" ref={contactRef}>
-      <div className="u-center-text u-margin-bottom-small">
-        <h2 className="heading-secondary u-margin-bottom-big">
+    <div className="section-contact u-center-text" id="contact" ref={contactRef}>
+        <h2 className={`heading-secondary ${isContactVisible ? "animation-fadein-left" : ""}`}>
           Get in Touch
         </h2>
-      </div>
+      {/* </div> */}
      
       <div className="contact-form">
         <form className="form" ref={form} onSubmit={sendEmail}>

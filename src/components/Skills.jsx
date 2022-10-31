@@ -13,10 +13,10 @@ import { FaGitAlt } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
 import { FaLinux } from 'react-icons/fa';
 
-const Skills = ( { skillRef }) => {
+const Skills = ( { skillRef, isSkillVisible }) => {
   return (
-    <section className="section-skills u-center-text u-margin-bottom-small" id="skills" ref={skillRef}>
-      <h2 className="heading-secondary u-margin-bottom-big">
+    <section className="section-skills u-center-text" id="skills" ref={skillRef}>
+      <h2 className={`heading-secondary ${isSkillVisible ? "animation-fadein-left" : ""}`}>
         Skills
       </h2>
       <div className="skills__container">
@@ -35,7 +35,7 @@ const Skills = ( { skillRef }) => {
           </li>
           <li className="skills__list-items">
             <FaSass />
-            <span className="skills__list-name">Sass</span>
+            <span className="skills__list-name"> Sass</span>
           </li>
           <li className="skills__list-items">
             <SiPostgresql />
