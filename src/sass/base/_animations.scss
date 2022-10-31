@@ -35,3 +35,16 @@
     transform: translateY(0rem);
   }
 }
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-30rem);
+  }
+
+
+  100% {
+    opacity: 1;
+    transform: translateX(0rem);
+  }
+}

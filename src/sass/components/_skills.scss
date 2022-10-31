@@ -11,12 +11,14 @@
     text-align: center;
     padding-top: 10rem;
     margin: 0 3%;
+    
 
     &-items {
       display: flex;
       flex-direction: column;
       padding: 7rem;
       align-items: center;
+      
     }
 
     &-name {
@@ -39,7 +41,8 @@
     &__list {
       margin: 0;
       &-items {
-        padding: 5rem;
+        padding: 3rem;
+        width: 30%;
       }
 
       & svg {
@@ -53,11 +56,13 @@
   .skills {
     &__list {
       &-items {
-        padding: 3rem;
+        padding: 2rem;
+        width: 50%;
       }
 
       &-name {
-        font-size: $font-size-extrasmall;
+        color: $color-black;
+        font-size: $font-size-small;
       }
 
       & svg {

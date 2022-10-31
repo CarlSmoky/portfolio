@@ -2,10 +2,10 @@ import React from 'react';
 import profilePhoto from '../img/image5.jpg';
 // import SkillList from "./SkillList";
 
-const About = ( {aboutRef} ) => {
+const About = ( { aboutRef, isAboutVisible } ) => {
   return (
     <section className="section-about u-center-text" id="about" ref={aboutRef}>
-        <h2 className="heading-secondary">
+        <h2 className={`heading-secondary ${isAboutVisible ? "animation-fadein-left" : ""}`}>
           About Me
         </h2>
       <div className="about__box">
