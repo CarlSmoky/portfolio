@@ -18,6 +18,12 @@
 
 @media screen and (max-width: 800px) {
   .tooltip {
-    font-size: .8rem;
+    font-size: .9rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .tooltip {
+    font-size: .7rem;
   }
 }
