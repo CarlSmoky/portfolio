@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Tooltip from "./Tooltip";
 import { AiOutlineHome } from 'react-icons/ai';
 import { AiOutlineUser } from 'react-icons/ai';
@@ -16,31 +16,31 @@ const Navbar = ({isMobile, isVisible}) => {
       <Tooltip text="Home">
         <a href="#home"  className={isVisible.isHeaderVisible ? 'active' : ''}>
           <AiOutlineHome />
-          <span class="screenreader-only">Home</span>
+          <span className="screenreader-only">Home</span>
         </a>
       </Tooltip>
       <Tooltip text="About">
         <a href="#about"  className={isVisible.isAboutVisible  ? 'active' : ''}>
           <AiOutlineUser />
-          <span class="screenreader-only">About</span>
+          <span className="screenreader-only">About</span>
         </a>
       </Tooltip>
       <Tooltip text="Skill">
         <a href="#skills"  className={isVisible.isSkillVisible  ? 'active' : ''}>
           <BiCodeAlt />
-          <span class="screenreader-only">Skill</span>
+          <span className="screenreader-only">Skill</span>
         </a>
       </Tooltip>
       <Tooltip text="Project">
         <a href="#projects"  className={isVisible.isProjectVisible  ? 'active' : ''}>
           <FaLaptopCode />
-          <span class="screenreader-only">Project</span>
+          <span className="screenreader-only">Project</span>
         </a>
       </Tooltip>
       <Tooltip text="Mail">
         <a href="#contact"  className={isVisible.isContactVisible  ? 'active' : ''}>
           <HiOutlineMail />
-          <span class="screenreader-only">Mail</span>
+          <span className="screenreader-only">Mail</span>
         </a>
       </Tooltip>
       </div>
