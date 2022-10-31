@@ -33,14 +33,19 @@ body {
   position: absolute;
   left: 10%;
   color: $color-grey-dark-2;
+  // opacity: 0.5;
   letter-spacing: 2rem;
   margin: 4rem 0 4rem;
   padding-top: 1rem;
   font-size: $font-size-big;
-  font-weight: $font-weight-small;
+  font-weight: $font-weight-medium;
   line-height: 1;
   text-transform: uppercase;
   text-align: left;
+}
+
+.animation-fadein-left {
+  animation: moveInLeft 1.5s ease-out;
 }
 
 .heading-tertiary {
@@ -70,17 +75,20 @@ body {
 
 .card-top__content--title {
   font-size: $default-font-size;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .card-bottom__content {
-  
+
   font-family: $secondary-font;
 
   &--title {
     font-size: $default-font-size;
     text-transform: uppercase;
   }
-  
+
   &--text {
     font-size: $default-font-size;
   }
@@ -141,7 +149,7 @@ body {
     }
 
     &--sub {
-      font-size: $default-font-size;
+      font-size: $font-size-medium;
       letter-spacing: .3rem;
     }
   }
@@ -180,6 +188,10 @@ body {
 
   .project-title {
     font-family: $primary-font;
+  }
+
+  .card-top__content--title {
+    color: $color-grey-dark-3;
   }
 
   .card-bottom__content {
