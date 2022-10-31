@@ -16,9 +16,11 @@ import { FaLinux } from 'react-icons/fa';
 const Skills = ( { skillRef, isSkillVisible }) => {
   return (
     <section className="section-skills u-center-text" id="skills" ref={skillRef}>
-      <h2 className={`heading-secondary ${isSkillVisible ? "animation-fadein-left" : ""}`}>
+      <div className="heading-secondary">
+      {isSkillVisible ? <h2 className={`animation-fadein-left`}>
         Skills
-      </h2>
+      </h2> : ""}
+      </div>
       <div className="skills__container">
         <ul className="skills__list">
           <li className="skills__list-items">

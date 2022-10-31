@@ -20,7 +20,9 @@ function Header({ headerRef }) {
           </div>
         </h1>
         <div className="fadeup-enter--3">
-          <p className="header__paragraph">Self-motivated and determined junior full stack developer, highly adept at seeking innovative solutions with evolving new technologies. Strong proficiency in various languages, libraries, and environments with expertise in JavaScript, Node, React, CSS, PostgreSQL and MySQL. Previous experience as an IT analyst brings great problem solving skills, customer-centric approach, high attention to detail.</p>
+          <p className="header__paragraph">
+          Self-motivated and determined, highly adept at seeking innovative solutions with evolving new technologies. Strong proficiency in various languages, libraries, and environments with expertise in JavaScript, React, Node.js, PostgreSQL and MySQL.
+          </p>
         </div>
       </div>
     </header >
