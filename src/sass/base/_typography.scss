@@ -32,8 +32,10 @@ body {
 .heading-secondary {
   position: absolute;
   left: 10%;
+}
+
+.animation-fadein-left {
   color: $color-grey-dark-2;
-  // opacity: 0.5;
   letter-spacing: 2rem;
   margin: 4rem 0 4rem;
   padding-top: 1rem;
@@ -41,11 +43,8 @@ body {
   font-weight: $font-weight-medium;
   line-height: 1;
   text-transform: uppercase;
-  text-align: left;
-}
-
-.animation-fadein-left {
-  animation: moveInLeft 1.5s ease-out;
+  text-align: left; 
+  animation: moveInLeft 1.2s ease-out;
 }
 
 .heading-tertiary {
@@ -155,9 +154,20 @@ body {
   }
 
   .heading-secondary {
-    font-size: $font-size-medium;
-    letter-spacing: 1rem;
     left: 5%;
+  }
+
+  .animation-fadein-left {
+    color: $color-grey-dark-2;
+    letter-spacing: 2rem;
+    margin: 4rem 0 4rem;
+    letter-spacing: 1rem;
+    font-size: $font-size-medium;
+    font-weight: $font-weight-medium;
+    line-height: 1;
+    text-transform: uppercase;
+    text-align: left; 
+    animation: moveInLeft 1.5s ease-out;
   }
 
   .heading-tertiary {

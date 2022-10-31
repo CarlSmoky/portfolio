@@ -5,9 +5,12 @@ import profilePhoto from '../img/image5.jpg';
 const About = ( { aboutRef, isAboutVisible } ) => {
   return (
     <section className="section-about u-center-text" id="about" ref={aboutRef}>
-        <h2 className={`heading-secondary ${isAboutVisible ? "animation-fadein-left" : ""}`}>
-          About Me
+      <div className="heading-secondary">
+        {isAboutVisible ? <h2 className={`animation-fadein-left`}> 
+        About Me
         </h2>
+        : ""}
+      </div>
       <div className="about__box">
         <div className="about__image">
           <img className="about__image--photo" src={profilePhoto} alt="profile_photo" />

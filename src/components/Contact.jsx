@@ -24,11 +24,11 @@ const Contact = ({ contactRef, isContactVisible }) => {
 
   return (
     <div className="section-contact u-center-text" id="contact" ref={contactRef}>
-        <h2 className={`heading-secondary ${isContactVisible ? "animation-fadein-left" : ""}`}>
+      <div className="heading-secondary">
+        {isContactVisible ? <h2 className={`animation-fadein-left`}>
           Get in Touch
-        </h2>
-      {/* </div> */}
-     
+        </h2> : ""}
+      </div>
       <div className="contact-form">
         <form className="form" ref={form} onSubmit={sendEmail}>
 
@@ -43,7 +43,7 @@ const Contact = ({ contactRef, isContactVisible }) => {
           </div>
 
           <div className="form__group">
-            <textarea className="form__textarea placeholder" placeholder="Message" name="user_message" id="user_message" rows="10" ref={user_message}required />
+            <textarea className="form__textarea placeholder" placeholder="Message" name="user_message" id="user_message" rows="10" ref={user_message} required />
             <label for="user_message" className="form__label label">Message</label>
           </div>
 
@@ -53,7 +53,7 @@ const Contact = ({ contactRef, isContactVisible }) => {
           </div>
         </form>
       </div>
-     </div>
+    </div>
   );
 };
 
