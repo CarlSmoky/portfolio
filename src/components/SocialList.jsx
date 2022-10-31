@@ -9,15 +9,15 @@ const SocialList = ({addClass}) => {
     <div className={`social-list ${addClass}`}>
       <a href="https://github.com/CarlSmoky" target="_blank" rel="noreferrer">
         <FiGithub />
-        <span class="screenreader-only">GitHub Link</span>
+        <span className="screenreader-only">GitHub Link</span>
       </a>
       <a href="https://www.linkedin.com/in/kaorutsumita/" target="_blank" rel="noreferrer">
         <FiLinkedin />
-        <span class="screenreader-only">LinkedIn Link</span>
+        <span className="screenreader-only">LinkedIn Link</span>
       </a>
       <a href="https://www.instagram.com/kaoruht" target="_blank" rel="noreferrer">
         <FiInstagram />
-        <span class="screenreader-only">Instgram Link</span>
+        <span className="screenreader-only">Instgram Link</span>
       </a>
     </div>
   )

@@ -22,11 +22,11 @@ const ProjectItem = (props) => {
                     <p className="card-bottom__content--stack">{props.stacks}</p>
                     <a className="card-bottom__content--button" href={props.gitUrl} target="_blank">
                         <FiGithub />
-                        <span class="screenreader-only">GitHub</span>
+                        <span className="screenreader-only">GitHub</span>
                     </a>
                     {props.demoUrl && <a className="card-bottom__content--button" href={props.demoUrl} target="_blank">
                         <FaLaptopCode />
-                        <span class="screenreader-only">Live Demo</span>
+                        <span className="screenreader-only">Live Demo</span>
                     </a>}
                 </div>
             </div>

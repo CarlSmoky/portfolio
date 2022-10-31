@@ -3,9 +3,6 @@ import React from "react";
 function Header({ headerRef }) {
   return (
     <header className="header" id="home" ref={headerRef} >
-      {/* <div class="header__logo-box">
-        <img src="img/logo-white.png" alt="Logo" class="header__logo" />
-      </div> */}
       <div className="header__text-box">
         <h1 className="heading-primary">
           <div className="fadeup-enter--1">

@@ -34,17 +34,17 @@ const Contact = ({ contactRef, isContactVisible }) => {
 
           <div className="form__group">
             <input type="text" className="form__input placeholder" placeholder="Full name" name="user_name" id="user_name" ref={user_name} required />
-            <label for="user_name" className="form__label label">Full name</label>
+            <label htmlFor="user_name" className="form__label label">Full name</label>
           </div>
 
           <div className="form__group">
             <input type="email" className="form__input placeholder" placeholder="Email address" name="user_email" id="user_email" ref={user_email} required />
-            <label for="user_email" className="form__label label">Email address</label>
+            <label htmlFor="user_email" className="form__label label">Email address</label>
           </div>
 
           <div className="form__group">
             <textarea className="form__textarea placeholder" placeholder="Message" name="user_message" id="user_message" rows="10" ref={user_message} required />
-            <label for="user_message" className="form__label label">Message</label>
+            <label htmlFor="user_message" className="form__label label">Message</label>
           </div>
 
           <div className="form__group">
