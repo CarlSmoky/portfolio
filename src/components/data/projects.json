@@ -2,12 +2,11 @@
   {
     "id" : "1",
     "title" : "Portfolio",
-    "details" : "",
+    "details" : "My portfolio: Responsive site built with React and Sass with interactive animations, designed and coded without templates, to showcase my work",
     "image_url" : "https://github.com/CarlSmoky/portfolio/raw/main/docs/desktop_portfolio.png?raw=true",
     "git_url" : "https://github.com/CarlSmoky/portfolio",
-    "demo_url": "",
-    "author" : "Kaoru",
-    "stacks" : "React.js"
+    "demo_url": "https://kaoru-portfolio.netlify.app/",
+    "stacks" : "React.js, Sass"
   },
   {
     "id" : "2",
@@ -25,7 +24,7 @@
     "image_url" : "https://github.com/CarlSmoky/little_libraries_client/blob/main/docs/Little_Library-detail.png?raw=true",
     "git_url" : "https://github.com/CarlSmoky/little_libraries_client",
     "demo_url" : "https://little-library-client.herokuapp.com/",
-    "stacks" : "React, Node.js, PostgreSQL, Google Map API, Firebase, JWTs"
+    "stacks" : "React, Node.js, PostgreSQL, Google Map API, Firebase, JWTs, React Router"
   },
   {
     "id" : "4",
@@ -34,7 +33,6 @@
     "image_url" : "https://github.com/CarlSmoky/find_me-ow/blob/main/docs/find_me-ow_Home.png?raw=true",
     "git_url" : "https://github.com/CarlSmoky/find_me-ow",
     "demo_url": "",
-    "author" : "Kaoru, Mei & Walid",
     "stacks" : "React, Node.js, PostgreSQL"
   },
   {
@@ -44,7 +42,6 @@
     "image_url" : "https://github.com/CarlSmoky/scheduler/blob/master/docs/Schduler.png?raw=true",
     "git_url" : "https://github.com/CarlSmoky/scheduler",
     "demo_url": "https://precious-cassata-827713.netlify.app/",
-    "author" : "Kaoru",
     "stacks" : "React.js"
   }
 

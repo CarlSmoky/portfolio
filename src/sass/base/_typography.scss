@@ -205,6 +205,10 @@ body {
   }
 
   .card-bottom__content {
+    &--title {
+      font-weight: $font-weight-small;
+    }
+
     &--text {
       font-family: $secondary-font;
       font-size: $font-size-small;
