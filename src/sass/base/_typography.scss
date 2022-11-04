@@ -74,7 +74,8 @@ body {
 
 .card-top__content--title {
   font-size: $default-font-size;
-  font-weight: 600;
+  // font-weight: 600;
+  font-weight: $font-weight-small;
   text-transform: uppercase;
   text-align: center;
 }
