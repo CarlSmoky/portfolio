@@ -17,7 +17,7 @@ const About = ( { aboutRef, isAboutVisible } ) => {
         </div>
         <div className="about__description">
           <div className="about__text">
-            <p className="about__paragraph">I am a full stack developer with 5 years exceperience as an IT Analyst.  I’m excited by all the possibilities in modern web technology and the opportunities they can provide, and am driven to learn and continuously improve my own skills. Previous experience as an IT analyst brings great problem solving skills, customer-centric approach, high attention to detail. I love hiking, traveling, improvising recipe and eating!
+            <p className="about__paragraph">I am a full stack developer with 5 years experience as an IT Analyst.  I’m excited by all the possibilities in modern web technology and the opportunities they can provide, and am driven to learn and continuously improve my own skills. ​My previous experience as an IT analyst brings great problem solving skills, ​a ​customer-centric approach, ​and ​high attention to detail. I love hiking, traveling, improvising recipes and eating!
             </p>
           </div>
           <div className="section-skill">
