@@ -23,7 +23,7 @@
     "details" : "Little libraries is for keeping track of ‘Little Libraries’",
     "image_url" : "https://github.com/CarlSmoky/little_libraries_client/blob/main/docs/Little_Library-detail.png?raw=true",
     "git_url" : "https://github.com/CarlSmoky/little_libraries_client",
-    "demo_url" : "https://little-library-client.herokuapp.com/",
+    "demo_url" : "https://littlelibraries.netlify.app/",
     "stacks" : "React, Node.js, PostgreSQL, Google Map API, Firebase, JWTs, React Router"
   },
   {
