@@ -6,7 +6,7 @@
     "image_url" : "https://github.com/CarlSmoky/portfolio/raw/main/docs/desktop_portfolio.png?raw=true",
     "git_url" : "https://github.com/CarlSmoky/portfolio",
     "demo_url": "https://kaoru-portfolio.netlify.app/",
-    "stacks" : "React.js, Sass"
+    "stacks" : "React, Sass"
   },
   {
     "id" : "2",
