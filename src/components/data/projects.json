@@ -20,11 +20,11 @@
   {
     "id" : "3",
     "title" : "Little Library",
-    "details" : "Little libraries is for keeping track of ‘Little Libraries’",
+    "details" : "'Little libraries' is a responsive app for collaboratively documenting with photos and geolocation data “Little Libraries”, with secure login, search, and multiple view options",
     "image_url" : "https://github.com/CarlSmoky/little_libraries_client/blob/main/docs/Little_Library-detail.png?raw=true",
     "git_url" : "https://github.com/CarlSmoky/little_libraries_client",
     "demo_url" : "https://littlelibraries.netlify.app/",
-    "stacks" : "React, Node.js, PostgreSQL, Google Map API, Firebase, JWTs, React Router"
+    "stacks" : "React, Node.js, PostgreSQL, Google Map API, Firebase, JWTs"
   },
   {
     "id" : "4",
