@@ -1,6 +1,5 @@
 import React from 'react';
 import profilePhoto from '../img/image5.jpg';
-// import SkillList from "./SkillList";
 
 const About = ( { aboutRef, isAboutVisible } ) => {
   return (
