@@ -2,7 +2,7 @@ import React from 'react';
 import ProjectItem from './ProjectItem';
 import projects from './data/projects.json';
 
-const ProjectList = () => {
+const ProjectList = ({ projectRef, isProjectVisible }) => {
 
   const displayProjects = projects.map(project => {
     return (
@@ -15,18 +15,17 @@ const ProjectList = () => {
         demoUrl={project.demo_url}
         details={project.details}
         author={project.author}
-        stack={project.stack}
+        stacks={project.stacks}
       />
     )
   });
 
   return (
-    <section className="section-projects" id="projects">
-
-      <div className="u-center-text u-margin-bottom-big">
-        <h2 class="heading-secondary margin-bottom-big">
-          Most Recent Projects
-        </h2>
+    <section className="section-projects u-center-text" id="projects" ref={projectRef} >
+      <div className="heading-secondary">
+        {isProjectVisible ? <h2 className={`animation-fadein-left`}>
+          Projects
+        </h2> : ""}
       </div>
       <div className="project-list">
         {displayProjects}

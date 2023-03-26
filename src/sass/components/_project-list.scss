@@ -1,108 +1,118 @@
 .project-list {
-    position: relative;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-flow: wrap;
-    font-family: consolas;
-    align-items: center;
-
+    margin: 0 auto;
+    width: 88%;
 }
 
 .card {
     position: relative;
-    cursor: pointer;
-    margin: -2rem 3rem;
+    margin-top: 12rem;
 
     &__face {
-        width: 70rem;
-        height: 36.6rem;
+        width: 50rem;
+        height: 27rem;
         transition: 0.5s;
     }
 
-    &__top {
+    &-top {
         position: relative;
         background: $color-primary;
         display: flex;
         justify-content: center;
         align-items: center;
         z-index: 1;
-        transform: translateY(18.3rem);
-        height: 36.6rem;
+        transform: translateY(18rem);
+        height: 27rem;
+        box-shadow: 0 -1rem 2rem rgba(0, 0, 0, 0.25);
+        filter: hue-rotate(90deg) grayscale(90%);
+        transition: all 1s;
 
-        &--content {
-            opacity: 0.8;
-            transition: 0.5s;
+        &__content {
 
-            img {
+            &--image {
                 width: 100%;
                 height: 100%;
             }
 
-            h3 {
+            &--title {
                 margin: 1rem 0 0;
                 padding: 0;
                 color: $color-white;
-                text-align: center;
-                font-size: 3rem;
             }
         }
     }
 
-    &:hover &__top {
+    &:hover &-top {
         background: $color-white;
         transform: translateY(0);
+        filter: hue-rotate(0deg) grayscale(0%);
+        box-shadow: 0 -1.5rem 3rem rgba(0, 0, 0, 0.15);
     }
 
-    &:hover &__top--content {
+    &:hover &-top__content {
         opacity: 1;
     }
 
-    &__bottom {
+    &:hover &-top__content--title {
+        opacity: 0;
+    }
+
+    &-bottom {
         position: relative;
         background: $color-white;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         padding: 2rem;
         box-sizing: border-box;
-        box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.8);
-        transform: translateY(-18.3rem);
+        box-shadow: 0rem 0rem 3rem rgba(0, 0, 0, 0.35);
+        transform: translateY(-9.5rem);
 
-        &--content {
+        &__content {
+            width: 100%;
+            text-align: left;
 
-            h3 {
+            &--title {
                 margin: 1rem 0 1rem;
                 padding: 0;
                 text-align: center;
-                font-size: 3rem;
             }
 
-            p {
+            &--text {
                 margin: 0 1rem;
                 padding: 0;
-                font-size: $font-size-middle;
                 text-align: left;
+
+                &:not(:last-child) {
+                    margin-bottom: 1rem;
+                }
             }
 
-            a {
-                margin: 1.5rem 1rem 0;
-                display: inline-block;
-                text-decoration: none;
-                font-weight: 900;
-                color: $color-primary;
-                padding: .5rem;
-                border: 1px solid $color-primary;
-                font-size: $font-size-middle;
+            &--stack {
+                text-align: left;
+                margin-left: 1rem;
+            }
 
-                &:hover {
-                    background: $color-primary;
-                    color: $color-white;
+            &--button {
+
+                svg {
+                    font-size: 3rem;
+                    margin: 1rem;
+                    padding: .5rem;
+                    &:hover {
+                        background: $color-primary;
+                        color: $color-white;
+                        border-radius: 50%;
+                    }
                 }
+
             }
         }
     }
 
-    &:hover &__bottom {
+    &:hover &-bottom {
         transform: translateY(0);
     }
 
@@ -110,47 +120,49 @@
 
 @media screen and (max-width: 500px) {
     .card {
-        margin: -2rem 2rem;
-    
+
         &__face {
             width: 35rem;
-            height: 18rem;
+            height: 20rem;
+            line-height: 1.3;
         }
-    
-        &__top {
+
+        &-top {
             transform: translateY(9rem);
             height: 18rem;
-    
-            &--content {
-                h3 {
-                    margin: .2rem 0 0;
+
+            &__content {
+
+                &--title {
+                    margin: 1rem 0 0;
                     font-size: $default-font-size;
                 }
             }
         }
-    
-        &__bottom {
-            transform: translateY(-9rem);
-    
-            &--content {
-    
-                h3 {
-                    margin: 1.5rem 0 0;
-                    padding: 0;
-                    text-align: center;
+
+
+
+        &-bottom {
+            transform: translateY(-11rem);
+
+            &__content {
+                width: 30rem;
+
+                &--title {
+                    margin: 1rem 0 1rem;
                     font-size: $default-font-size;
                 }
-    
-                p {
-                    font-size: 1rem;
+
+                &--text {
+                    margin: 0 1rem;
                 }
-    
-                a {
-                    margin: 1rem .7rem 0;
-                    padding: .3rem;
+
+                &--button {
+                    margin: 1rem .5rem 0;
                     font-size: $font-size-small;
                 }
             }
         }
+
     }
 }

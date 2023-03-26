@@ -1,0 +1,29 @@
+.tooltip {
+  position: relative;
+  background: $color-grey-dark-3;
+  color: $color-grey-light;
+  visibility: hidden;
+  padding: 0;
+  border-radius: 2rem;
+  font-size: $font-size-extrasmall;
+}
+.tooltip-arrow {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  border-width: .5rem;
+  border-style: solid;
+  border-color: $color-grey-dark-3 transparent transparent;
+}
+
+@media screen and (max-width: 800px) {
+  .tooltip {
+    font-size: .9rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .tooltip {
+    font-size: .7rem;
+  }
+}

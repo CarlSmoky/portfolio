@@ -1,81 +1,230 @@
 body {
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
-  /* font-size: 16px; */
-  line-height: 1.7;
+  font-family: $primary-font;
+  background: $color-primary;
   color: $color-grey-dark;
+  line-height: 1.7;
+  text-decoration: none;
 }
 
 .heading-primary {
-  color: $color-white;
-  text-transform: uppercase;
-  margin-bottom: 6rem;
-
   /* To stop shaking */
   backface-visibility: hidden;
 
   &--main {
-    display: block;
-    font-size: 6rem;
-    font-weight: 400;
-    letter-spacing: 3.5rem;
-  
-    animation-name: moveInLeft;
-    animation-duration: 5s;
-    animation-timing-function: ease-out;
-  
-    /* animation-delay: 3s; */
-    /* animation-iteration-count: 3; */
-  
-  
+    color: $color-grey-dark-2;
+    letter-spacing: 3rem;
+    margin-bottom: 1rem;
+    font-size: $font-size-huge;
+    font-weight: $font-weight-big;
+    line-height: 1.4;
   }
-  
+
   &--sub {
-    display: block;
-    font-size: 2rem;
-    font-weight: 700;
-    letter-spacing: 1.75rem;
-  
-    /* animation-name: moveInRight;
-    animation-duration: 5s;
-    animation-timing-function: ease-out; */
-  
-    /* shorthand */
-    animation: moveInRight 5s ease-out;
+    color: $color-grey-dark-2;
+    letter-spacing: 1.8rem;
+    margin-bottom: 1.5rem;
+    font-size: $font-size-big;
+    font-weight: $font-weight-medium;
+    line-height: 1.4;
   }
 }
 
 .heading-secondary {
-  font-size: 3.5rem;
-  text-transform: uppercase;
-  font-weight: 700;
-  display: inline-block;
-  background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
-  -webkit-background-clip: text;
-  color: transparent;
-  letter-spacing: .2rem;
-  transition: all .2s;
-
-  &:hover {
-    transform: skewY(2deg) skewX(15deg) scale(1.1);
-    text-shadow: .5rem 1rem 2rem rgba($color-black, .2);
-  }
+  position: absolute;
+  left: 10%;
 }
 
-.margin-bottom-big {
-  margin-bottom: 10rem;
+.animation-fadein-left {
+  color: $color-grey-dark-2;
+  letter-spacing: 2rem;
+  margin: 4rem 0 4rem;
+  padding-top: 1rem;
+  font-size: $font-size-big;
+  font-weight: $font-weight-medium;
+  line-height: 1;
+  text-transform: uppercase;
+  text-align: left; 
+  animation: moveInLeft 1s ease-out;
 }
 
 .heading-tertiary {
-  font-size: $default-font-size;;
-  font-weight: 700;
+  font-size: $font-size-big;
+  font-weight: $font-weight-small;
   text-transform: uppercase;
+  text-align: left;
 }
 
-.paragraph {
-  font-size: $font-size-middle;
+.header__paragraph {
+  font-family: $secondary-font;
+  font-size: $font-size-medium;
+  padding-top: 1.4rem;
+  color: #63585E;
+}
 
-  &:not(:last-child) {
-    margin-bottom: 3rem;
+.nav__copyright {
+  font-size: 1.2rem;
+  color: $color-grey-dark;
+}
+
+.about__paragraph {
+  font-size: $font-size-medium;
+  font-family: $secondary-font, sans-serif;
+  font-weight: $font-weight-small;
+}
+
+.card-top__content--title {
+  font-size: $default-font-size;
+  // font-weight: 600;
+  font-weight: $font-weight-small;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.card-bottom__content {
+
+  font-family: $secondary-font;
+
+  &--title {
+    font-size: $default-font-size;
+    text-transform: uppercase;
+  }
+
+  &--text {
+    font-size: $default-font-size;
+  }
+
+  &--stack {
+    font-size: $font-size-small;
+    font-family: $primary-font;
+    line-height: 2;
+  }
+}
+
+
+.project-title {
+  font-family: $primary-font;
+}
+
+.list {
+  font-family: $secondary-font;
+  font-size: $default-font-size;
+  font-weight: $font-weight-medium;
+}
+
+.placeholder {
+  font-size: $default-font-size;
+  font-family: $secondary-font;
+  font-weight: $font-weight-small;
+}
+
+.label {
+  font-size: $default-font-size;
+  font-family: $secondary-font;
+  ;
+  font-weight: $font-weight-medium;
+}
+
+.form__button {
+  font-size: $font-size-medium;
+  font-family: $secondary-font;
+  font-weight: $font-weight-small;
+}
+
+.footer__text {
+  font-size: $default-font-size;
+  font-family: $secondary-font;
+  font-weight: $font-weight-small;
+}
+
+
+@media screen and (max-width: 500px) {
+
+  .heading-primary {
+
+    &--main {
+      font-size: $font-size-big;
+      letter-spacing: .7rem;
+      font-weight: $font-weight-big ;
+      line-height: 1;
+    }
+
+    &--sub {
+      font-size: $font-size-medium;
+      letter-spacing: .3rem;
+    }
+  }
+
+  .heading-secondary {
+    left: 5%;
+  }
+
+  .animation-fadein-left {
+    color: $color-grey-dark-2;
+    letter-spacing: 2rem;
+    margin: 4rem 0 4rem;
+    letter-spacing: 1rem;
+    font-size: $font-size-medium;
+    font-weight: $font-weight-medium;
+    line-height: 1;
+    text-transform: uppercase;
+    text-align: left; 
+    animation: moveInLeft 1s ease-out;
+  }
+
+  .heading-tertiary {
+    font-size: $font-size-medium;
+  }
+
+  .header__paragraph {
+    font-size: $default-font-size;
+  }
+
+  .about__paragraph {
+    font-size: $default-font-size;
+  }
+
+  .placeholder {
+    font-weight: $font-weight-small;
+  }
+
+  .label {
+    font-size: 1.5rem;
+    font-weight: $font-weight-small;
+  }
+
+  .button {
+    font-size: 1.5rem;
+    font-weight: $font-weight-big;
+  }
+
+  .project-title {
+    font-family: $primary-font;
+  }
+
+
+  .card-bottom__content {
+    &--title {
+      font-weight: $font-weight-small;
+    }
+
+    &--text {
+      font-family: $secondary-font;
+      font-size: $font-size-small;
+
+      &:not(:last-child) {
+        margin-bottom: 1rem;
+      }
+    }
+
+    &--stack {
+      font-size: $font-size-small;
+      line-height: 1;
+    }
+  }
+
+  .list {
+    font-family: $secondary-font;
+    font-weight: $font-weight-small;
+    font-size: $font-size-small;
   }
 }

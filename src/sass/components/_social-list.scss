@@ -1,0 +1,63 @@
+.social-list.desktop {
+  position: fixed;
+  display: block;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  right: 3%;
+  bottom: 2%;
+  margin-top: 4rem;
+  animation: moveInBottom 3s ease-out;
+
+  & a {
+    padding: 1rem;
+    border-radius: 50%;
+    line-height: 0;
+    transition: all .4s;
+
+    &:hover {
+      background: $color-primary;
+      color: $color-white;
+    }
+
+    &:active {
+      background-color: $color-grey-dark;
+      color: $color-white;
+    }
+  }
+
+  & svg {
+    font-size: $font-size-big;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .social-list.mobile {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
+    margin: 0 auto 12rem;
+
+    & a {
+      padding: 1rem;
+      border-radius: 50%;
+      line-height: 0;
+    
+      &:hover {
+        background: $color-primary;
+        color: $color-white;
+      }
+
+      &:active {
+        background-color: $color-grey-dark;
+        color: $color-white;
+      }
+    }
+
+    & svg {
+      font-size: $font-size-big;
+    }
+  }
+}

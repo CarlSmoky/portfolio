@@ -2,17 +2,20 @@
 @import "abstract/variables";
 @import "abstract/functions";
 @import "abstract/mixins";
+@import "abstract/utilities";
 
 @import "base/base";
 @import "base/animations";
 @import "base/typography";
 
 @import "layout/header";
-@import "layout/footer";
 @import "layout/navbar";
 
 @import "components/project-list";
-@import "components/button";
-@import "components/skill-list";
+@import "components/form";
+@import "components/about";
+@import "components/skills";
+@import "components/social-list";
+@import "components/tooltip";
 
 @import "pages/home";

@@ -9,13 +9,7 @@
 html {
   // This defines what 1 rem is 10px
   font-size: 62.5%; //1 rem = 10px: 10px/16px = 62.5%
-}
-body {
-  font-family: var(--ff-secondary);
-  background: var(--clr-grey-10);
-  color: var(--mid);
-  background-color: var(--light) !important;
-  text-decoration: none;
+  scroll-behavior: smooth;
 }
 
 a:link,

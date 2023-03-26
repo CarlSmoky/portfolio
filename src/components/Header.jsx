@@ -1,13 +1,28 @@
 import React from "react";
 
-function Header() {
+function Header({ headerRef }) {
   return (
-    <section className="section-header" id="home">
-    <div className="section-header__text-box">
-      <h2>Kaoru Tsumita</h2>
-      <h3>Full Stack Developer</h3>
-    </div>
-  </section>
+    <header className="header" id="home" ref={headerRef} >
+      <div className="header__text-box">
+        <h1 className="heading-primary">
+          <div className="fadeup-enter--1">
+            <span className="heading-primary--main">
+              Kaoru Tsumita
+            </span>
+          </div>
+          <div className="fadeup-enter--2">
+            <span className="heading-primary--sub">
+              Full Stack Developer
+            </span>
+          </div>
+        </h1>
+        <div className="fadeup-enter--3">
+          <p className="header__paragraph">
+          Self-motivated and determined, highly adept at seeking innovative solutions with evolving new technologies. Strong proficiency in various languages, libraries, and environments with expertise in JavaScript, React, Node.js, PostgreSQL and MySQL.
+          </p>
+        </div>
+      </div>
+    </header >
   )
 }
 

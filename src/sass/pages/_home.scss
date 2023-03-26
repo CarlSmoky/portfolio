@@ -1,40 +1,40 @@
 .section-about {
   position: relative;
-  min-height: 100vh;
-  background-image: linear-gradient(to right bottom, grey , pink);
+  height: 100vh;
+  background-image: linear-gradient(to bottom, $color-primary , $color-primary-light);
+}
 
-    &__my-name {
-      position: absolute;
-      top: 100px;
-      left: calc(50% - $profile-image-width/2);
-      font-size: 2rem;
-      color: white;
-      width: $profile-image-width;
+.section-skills {
+  position: relative;
+  background: $color-primary-light;
+  margin: 0 auto;
+}
 
-    }
 
-    &__profile_photo {
-      width: 10rem;
-      border-radius: 50%;
-    }
+.section-projects {
+  position: relative;
+  background-image: linear-gradient(to bottom, $color-primary-light, $color-primary);
+  margin: 0 auto;
+}
+
+.section-contact {
+  position: relative;
+  background: $color-primary;
+  padding-bottom: 15rem;
+
+}
+
+.screenreader-only {
+  position:absolute;
+  left:-10000px;
+  top:auto;
+  width: 1rem;
+  height: 1rem;
+  overflow:hidden;
+}
+
+@media screen and (max-width: 800px) {
+  .section-contact  {
+    padding-bottom: 6rem;
   }
-
-  .section-skill {
-    background-image: linear-gradient(to right bottom, grey , pink);
-    min-height: 100vh;
-  
-  }
-
-  .section-projects {
-    background: $color-primary;
-    margin: 0;
-    padding: 0 0 10rem 0;
-    min-height: 100vh;
-  }
-
-  .section-contact {
-    height: 100vh;
-    background-image: linear-gradient(to right bottom, grey , pink);
-  
-  }
-
+}
