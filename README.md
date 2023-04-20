@@ -1,5 +1,9 @@
-# portfolio
+# Personal Portfolio
 
+## Features
+- Responsive design
+- Interactive animation
+- Mail with EmailJS
 
 ## Final Product
 <div>
@@ -15,7 +19,7 @@
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
 </div>
 
-### Instration
+### Installation
 1. Clone this repository
 ```console
 $ git clone git@github.com:CarlSmoky/portfolio.git
