@@ -1,20 +1,38 @@
 # portfolio
 
 
-React, Sass
-
 ## Final Product
+<div>
+  <img src="https://github.com/CarlSmoky/portfolio/blob/main/docs/desktop_portfolio.png?raw=true" alt="Desktop image" height="400px">
+  <img src="https://github.com/CarlSmoky/portfolio/blob/main/docs/mobile_portfolio.png?raw=true" alt="Mobile image" height="400px">
+</div>
 
-!["Desktop"](https://github.com/CarlSmoky/portfolio/blob/main/docs/desktop_portfolio.png?raw=true)
+### Tech Stacks
+<div>
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React">
+  <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="javascript">
+  <img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white" alt="sass">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+</div>
 
-!["Mobile"](https://github.com/CarlSmoky/portfolio/blob/main/docs/mobile_portfolio.png?raw=true)
+### Instration
+1. Clone this repository
+```console
+$ git clone git@github.com:CarlSmoky/portfolio.git
+```
 
-### `npm start`
+2. Install packages
+```console
+$ cd portfolio
+$ npm install
+```
 
-Runs the app in the development mode.\
+3. Start React APP
+```console
+$ npm run start
+```
+
+4. Run the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
 
