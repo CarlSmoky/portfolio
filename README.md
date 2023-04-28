@@ -6,10 +6,9 @@
 - Mail with EmailJS
 
 ## Final Product
-<div>
-  <img src="https://github.com/CarlSmoky/portfolio/blob/main/docs/desktop_portfolio.png?raw=true" alt="Desktop image" height="400px">
+  <img src="https://github.com/CarlSmoky/portfolio/blob/main/docs/desktop_portfolio.png?raw=true" alt="Desktop image" width="500px">
   <img src="https://github.com/CarlSmoky/portfolio/blob/main/docs/mobile_portfolio.png?raw=true" alt="Mobile image" height="400px">
-</div>
+
 
 ### Tech Stacks
 <div>
