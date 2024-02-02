@@ -7,13 +7,12 @@
     display: flex;
     flex-wrap: wrap;
     -webkit-box-pack: center;
-    justify-content: space-evenly;
     text-align: center;
     padding-top: 10rem;
     margin: 0 3%;
     
-
     &-items {
+      width: 25%;
       display: flex;
       flex-direction: column;
       padding: 7rem;
@@ -29,12 +28,8 @@
       width: 8rem;
       height: 8rem;
     }
-
   }
 }
-
-
-
 
 @media screen and (max-width: 800px) {
   .skills {
@@ -47,6 +42,7 @@
 
       & svg {
         width: 6rem;
+        height: 6rem;
       }
     }
   }
@@ -67,6 +63,7 @@
 
       & svg {
         width: 4rem;
+        height: 4rem;
       }
     }
   }
