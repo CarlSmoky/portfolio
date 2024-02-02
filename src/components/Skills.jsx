@@ -1,23 +1,23 @@
 import React from "react";
 import { SiJavascript } from 'react-icons/si';
 import { SiTypescript } from "react-icons/si";
+import { FaNode } from "react-icons/fa";
 import { SiReact } from 'react-icons/si';
 import { SiNextdotjs } from "react-icons/si";
-import { FaNode } from "react-icons/fa";
-import { FaSass } from 'react-icons/fa';
-import { SiStyledcomponents } from "react-icons/si";
 import { SiTailwindcss } from "react-icons/si";
-import { FaHtml5 } from 'react-icons/fa';
-import { FaCss3Alt } from 'react-icons/fa';
+import { SiStyledcomponents } from "react-icons/si";
+import { FaSass } from 'react-icons/fa';
 import { FaPhp } from 'react-icons/fa';
 import { FaPython } from "react-icons/fa";
 import { SiPostgresql } from 'react-icons/si';
 import { GrMysql } from 'react-icons/gr';
 import { SiMongodb } from 'react-icons/si';
-import { FaGitAlt } from 'react-icons/fa';
-import { FaGithub } from 'react-icons/fa';
 import { FaLinux } from 'react-icons/fa';
 import { FaAws } from "react-icons/fa";
+import { FaGitAlt } from 'react-icons/fa';
+import { FaGithub } from 'react-icons/fa';
+import { FaHtml5 } from 'react-icons/fa';
+import { FaCss3Alt } from 'react-icons/fa';
 
 const Skills = ( { skillRef, isSkillVisible }) => {
   return (
@@ -38,6 +38,10 @@ const Skills = ( { skillRef, isSkillVisible }) => {
             <span className="skills__list-name">TypeScript</span>
           </li>
           <li className="skills__list-items">
+            <FaNode />
+            <span className="skills__list-name">Node.js</span>
+          </li>
+          <li className="skills__list-items">
             <SiReact />
             <span className="skills__list-name">React</span>
           </li>
@@ -46,20 +50,16 @@ const Skills = ( { skillRef, isSkillVisible }) => {
             <span className="skills__list-name">Next.js</span>
           </li>
           <li className="skills__list-items">
-            <FaNode />
-            <span className="skills__list-name">Node.js</span>
+            <SiTailwindcss />
+            <span className="skills__list-name">Tailwind</span>
+          </li>
+          <li className="skills__list-items">
+            <SiStyledcomponents />
+            <span className="skills__list-name">Styled components</span>
           </li>
           <li className="skills__list-items">
             <FaSass />
             <span className="skills__list-name">Sass</span>
-          </li>
-          <li className="skills__list-items">
-            <SiStyledcomponents />
-            <span className="skills__list-name">Styled</span>
-          </li>
-          <li className="skills__list-items">
-            <SiTailwindcss />
-            <span className="skills__list-name">Tailwind</span>
           </li>
           <li className="skills__list-items">
             <FaPhp />
