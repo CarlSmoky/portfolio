@@ -51,11 +51,11 @@ const Skills = ( { skillRef, isSkillVisible }) => {
           </li>
           <li className="skills__list-items">
             <SiTailwindcss />
-            <span className="skills__list-name">Tailwind</span>
+            <span className="skills__list-name">Tailwind CSS</span>
           </li>
           <li className="skills__list-items">
             <SiStyledcomponents />
-            <span className="skills__list-name">Styled components</span>
+            <span className="skills__list-name">Styled-components</span>
           </li>
           <li className="skills__list-items">
             <FaSass />
