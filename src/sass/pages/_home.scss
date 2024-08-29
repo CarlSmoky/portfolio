@@ -1,6 +1,7 @@
 .section-about {
   position: relative;
   height: 100vh;
+  min-height:765px;
   background-image: linear-gradient(to bottom, $color-primary , $color-primary-light);
 }
 

@@ -12,13 +12,13 @@ function Header({ headerRef }) {
           </div>
           <div className="fadeup-enter--2">
             <span className="heading-primary--sub">
-              Full Stack Developer
+              Software Developer
             </span>
           </div>
         </h1>
         <div className="fadeup-enter--3">
           <p className="header__paragraph">
-          Self-motivated and determined, highly adept at seeking innovative solutions with evolving new technologies. Strong proficiency in various languages, libraries, and environments with expertise in JavaScript, React, Node.js, PostgreSQL and MySQL.
+          Self-motivated and determined, highly adept at seeking innovative solutions with evolving new technologies. Strong proficiency in various languages, libraries, and environments with expertise in JavaScript, React, Next.js, Node.js, PostgreSQL and MySQL.
           </p>
         </div>
       </div>
