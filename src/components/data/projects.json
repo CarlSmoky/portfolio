@@ -1,24 +1,33 @@
 [
   {
     "id" : "1",
+    "title" : "Dokodemo Card",
+    "details" : "Learning app designed to make memorization not just effective but also engaging. The power to learn is always at your fingertips, transforming downtime into productive study sessions.",
+    "image_url" : "https://github.com/CarlSmoky/flashcard_client/blob/main/doc/Dokodemo_Card_home_desktop.png?raw=true",
+    "git_url" : "https://github.com/CarlSmoky/flashcard_client",
+    "demo_url": "https://kaoru-portfolio.netlify.app/",
+    "stacks" : "React, Styled_components, Node.JS, Express, PostgreSQL, Auth0"
+  },
+  {
+    "id" : "2",
     "title" : "Portfolio",
     "details" : "My portfolio: Responsive site built with React and Sass with interactive animations, designed and coded without templates, to showcase my work",
     "image_url" : "https://github.com/CarlSmoky/portfolio/raw/main/docs/desktop_portfolio.png?raw=true",
     "git_url" : "https://github.com/CarlSmoky/portfolio",
-    "demo_url": "https://kaoru-portfolio.netlify.app/",
+    "demo_url": "https://kaorut.com/",
     "stacks" : "React, Sass"
   },
   {
-    "id" : "2",
+    "id" : "3",
     "title" : "Ace the Interview!",
     "details" : "Ace the Interview! is for job seekers who want to practice their interview skills. Questions are randomly chosen and there are optional timers",
     "image_url" : "https://github.com/CarlSmoky/interview_client/raw/main/docs/Desktop.png?raw=true",
     "git_url" : "https://github.com/CarlSmoky/interview_client",
     "demo_url" : "https://acetheinterview.netlify.app/",
-    "stacks" : "React, Node.js, MongoDB, Sass"
+    "stacks" : "React, Sass, Node.js, MongoDB, "
   },
   {
-    "id" : "3",
+    "id" : "4",
     "title" : "Little Library",
     "details" : "'Little libraries' is a responsive app for collaboratively documenting with photos and geolocation data “Little Libraries”, with secure login, search, and multiple view options",
     "image_url" : "https://github.com/CarlSmoky/little_libraries_client/blob/main/docs/Little_Library-detail.png?raw=true",
@@ -27,7 +36,7 @@
     "stacks" : "React, Node.js, PostgreSQL, Google Map API, Firebase, JWTs"
   },
   {
-    "id" : "4",
+    "id" : "5",
     "title" : "Find Meow!",
     "details" : "Find Me-ow! is an app to help to unite lost cats and found cats with their owners. Colloborated with two other collegues as final project at Lighthouse labs.",
     "image_url" : "https://github.com/CarlSmoky/find_me-ow/blob/main/docs/find_me-ow_Home.png?raw=true",
