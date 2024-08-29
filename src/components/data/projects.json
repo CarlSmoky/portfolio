@@ -10,12 +10,12 @@
   },
   {
     "id" : "2",
-    "title" : "Portfolio",
-    "details" : "My portfolio: Responsive site built with React and Sass with interactive animations, designed and coded without templates, to showcase my work",
-    "image_url" : "https://github.com/CarlSmoky/portfolio/raw/main/docs/desktop_portfolio.png?raw=true",
-    "git_url" : "https://github.com/CarlSmoky/portfolio",
-    "demo_url": "https://kaorut.com/",
-    "stacks" : "React, Sass"
+    "title" : "Little Libraries",
+    "details" : "'Little libraries' is a responsive app for collaboratively documenting with photos and geolocation data “Little Libraries”, with secure login, search, and multiple view options",
+    "image_url" : "https://github.com/CarlSmoky/little_libraries_client/blob/main/docs/Little_Library-detail.png?raw=true",
+    "git_url" : "https://github.com/CarlSmoky/little_libraries_client",
+    "demo_url" : "https://littlelibraries.netlify.app/",
+    "stacks" : "React, Node.js, PostgreSQL, Google Map API, Firebase, JWTs"
   },
   {
     "id" : "3",
@@ -28,11 +28,11 @@
   },
   {
     "id" : "4",
-    "title" : "Little Library",
-    "details" : "'Little libraries' is a responsive app for collaboratively documenting with photos and geolocation data “Little Libraries”, with secure login, search, and multiple view options",
-    "image_url" : "https://github.com/CarlSmoky/little_libraries_client/blob/main/docs/Little_Library-detail.png?raw=true",
-    "git_url" : "https://github.com/CarlSmoky/little_libraries_client",
-    "demo_url" : "https://littlelibraries.netlify.app/",
-    "stacks" : "React, Node.js, PostgreSQL, Google Map API, Firebase, JWTs"
+    "title" : "Portfolio",
+    "details" : "Responsive site built with React and Sass with interactive animations, designed and coded without templates, to showcase my work",
+    "image_url" : "https://github.com/CarlSmoky/portfolio/raw/main/docs/desktop_portfolio.png?raw=true",
+    "git_url" : "https://github.com/CarlSmoky/portfolio",
+    "demo_url": "https://kaorut.com/",
+    "stacks" : "React, Sass"
   }
 ]
