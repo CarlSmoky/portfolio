@@ -5,8 +5,8 @@
     "details" : "Learning app designed to make memorization not just effective but also engaging. The power to learn is always at your fingertips, transforming downtime into productive study sessions.",
     "image_url" : "https://github.com/CarlSmoky/flashcard_client/blob/main/doc/Dokodemo_Card_home_desktop.png?raw=true",
     "git_url" : "https://github.com/CarlSmoky/flashcard_client",
-    "demo_url": "https://kaoru-portfolio.netlify.app/",
-    "stacks" : "React, Styled_components, Node.JS, Express, PostgreSQL, Auth0"
+    "demo_url": "https://dokodemocard.vercel.app/",
+    "stacks" : "React, Styled-components, Node.js, Express, PostgreSQL, Auth0"
   },
   {
     "id" : "2",
@@ -34,15 +34,5 @@
     "git_url" : "https://github.com/CarlSmoky/little_libraries_client",
     "demo_url" : "https://littlelibraries.netlify.app/",
     "stacks" : "React, Node.js, PostgreSQL, Google Map API, Firebase, JWTs"
-  },
-  {
-    "id" : "5",
-    "title" : "Find Meow!",
-    "details" : "Find Me-ow! is an app to help to unite lost cats and found cats with their owners. Colloborated with two other collegues as final project at Lighthouse labs.",
-    "image_url" : "https://github.com/CarlSmoky/find_me-ow/blob/main/docs/find_me-ow_Home.png?raw=true",
-    "git_url" : "https://github.com/CarlSmoky/find_me-ow",
-    "demo_url": "",
-    "stacks" : "React, Node.js, PostgreSQL"
   }
-
 ]
