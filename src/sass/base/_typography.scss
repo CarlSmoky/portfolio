@@ -12,20 +12,22 @@ body {
 
   &--main {
     color: $color-grey-dark-2;
-    letter-spacing: 3rem;
+    letter-spacing: 1.3rem;
     margin-bottom: 1rem;
     font-size: $font-size-huge;
     font-weight: $font-weight-big;
     line-height: 1.4;
+    white-space: nowrap;
   }
 
   &--sub {
     color: $color-grey-dark-2;
-    letter-spacing: 1.8rem;
+    letter-spacing: 1.3rem;
     margin-bottom: 1.5rem;
     font-size: $font-size-big;
     font-weight: $font-weight-medium;
     line-height: 1.4;
+    white-space: nowrap;
   }
 }
 
